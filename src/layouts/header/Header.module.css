@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+  z-index: 999;
+}
+
+/* タブレット */
+@media screen and (max-width: 1280px) {
+}
+
+/* スマートフォン */
+@media screen and (max-width: 768px) {
+}
