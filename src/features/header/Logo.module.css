@@ -1,0 +1,14 @@
+.logoArea {
+  width: 200px;
+  height: 80px;
+  padding: 5px;
+}
+.logoText {
+  dispaly: block;
+  height: 50px;
+  margin: 0;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
