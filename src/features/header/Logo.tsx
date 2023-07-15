@@ -8,7 +8,9 @@ const Logo: React.FC = () => {
   return (
     <>
       <div className={styles.logoArea}>
-        Logo
+        <h1 className={styles.logoText}>
+          K Code
+        </h1>
       </div>
     </>
   )
