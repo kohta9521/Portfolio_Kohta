@@ -9,7 +9,6 @@ const MainLayout: React.FC = () => {
   return (
     <>
       <div className={styles.main}>
-        main layout components
         <Sidebar />
       </div>
     </>

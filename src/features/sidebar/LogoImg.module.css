@@ -1,13 +1,22 @@
-.sidebar {
+.logo {
   width: 200px;
-  height: 100%;
-  background-color: gray;
+  hegiht: 80px;
+  backgrond-color: gray;
+}
+.logoItem {
+  width: 100%;
 }
 
 /* タブレット */
 @media screen and (max-width: 1280px) {
+  .logo {
+    dispaly: none;
+  }
 }
 
 /* スマートフォン */
 @media screen and (max-width: 768px) {
+  .logo {
+    dispaly: none;
+  }
 }

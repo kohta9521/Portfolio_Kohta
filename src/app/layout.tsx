@@ -1,4 +1,4 @@
-import '../styles/page.module.css';
+import styles from  '../styles/page.module.css';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={styles.body}>{children}</body>
     </html>
   )
 }
