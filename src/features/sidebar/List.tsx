@@ -1,7 +1,7 @@
 import React from "react";
 
 // react icons import
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaUserAlt, FaCode, FaDesktop, FaPenAlt, FaPaperPlane } from "react-icons/fa";
 
 // css import
 import styles from "./List.module.css";
@@ -25,7 +25,37 @@ const List: React.FC = () => {
       text: "Home",
       link: "./",
       icon: <FaHome />,
-    }
+    },
+    {
+      id: 2,
+      text: "Profile",
+      link: "./",
+      icon: <FaUserAlt />,
+    },
+    {
+      id: 3,
+      text: "Skill",
+      link: "./",
+      icon: <FaCode />,
+    },
+    {
+      id: 4,
+      text: "Work",
+      link: "./",
+      icon: <FaDesktop />,
+    },
+    {
+      id: 5,
+      text: "Blog",
+      link: "./",
+      icon: <FaPenAlt />,
+    },
+    {
+      id: 6,
+      text: "Contact",
+      link: "./",
+      icon: <FaPaperPlane />,
+    },
   ]
 
   return (
