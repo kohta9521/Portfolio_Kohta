@@ -1,13 +1,17 @@
 import React from "react";
 
+// import reacticons
+import { FaGithub, FaFacebookSquare, FaTwitterSquare  } from "react-icons/fa";
+
 // css import
 import styles from "./SnsBox.module.css";
 
 // array type
 type snsList = {
   id: number;
-  img: string;
+  icon: React.ReactElement;
   link: string;
+  notUseText: string;
 }
 
 
@@ -17,9 +21,22 @@ const SnsBox: React.FC = () => {
   const snsList: snsList[] = [
     {
       id: 1,
-      img: "",
+      icon: <FaGithub />,
       link: "",
-    }
+      notUseText: "github"
+    },
+    {
+      id: 2,
+      icon: <FaFacebookSquare />,
+      link: "",
+      notUseText: "facebook"
+    },
+    {
+      id: 3,
+      icon: <FaTwitterSquare />,
+      link: "",
+      notUseText: "twitter"
+    },
   ]
 
   return (
@@ -28,7 +45,7 @@ const SnsBox: React.FC = () => {
         {
           snsList.map((item, i) => (
             <div className={styles.snsItem}>
-              <a className={styles.snsLink} key={item.id} href={item.link}><img src={item.img} alt="snsLink" /></a>
+              <a className={styles.snsLink} key={item.id} href={item.link}>{item.icon}</a>
             </div>
           ))
         }
