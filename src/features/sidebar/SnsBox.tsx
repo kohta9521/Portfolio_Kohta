@@ -21,19 +21,19 @@ const SnsBox: React.FC = () => {
   const snsList: snsList[] = [
     {
       id: 1,
-      icon: <FaGithub />,
+      icon: <FaGithub className={styles.icon} />,
       link: "",
       notUseText: "github"
     },
     {
       id: 2,
-      icon: <FaFacebookSquare />,
+      icon: <FaFacebookSquare className={styles.icon}  />,
       link: "",
       notUseText: "facebook"
     },
     {
       id: 3,
-      icon: <FaTwitterSquare />,
+      icon: <FaTwitterSquare className={styles.icon}  />,
       link: "",
       notUseText: "twitter"
     },
