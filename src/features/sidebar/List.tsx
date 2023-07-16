@@ -24,37 +24,37 @@ const List: React.FC = () => {
       id: 1,
       text: "Home",
       link: "./",
-      icon: <FaHome />,
+      icon: <FaHome className={styles.icon} />,
     },
     {
       id: 2,
       text: "Profile",
       link: "./",
-      icon: <FaUserAlt />,
+      icon: <FaUserAlt className={styles.icon}  />,
     },
     {
       id: 3,
       text: "Skill",
       link: "./",
-      icon: <FaCode />,
+      icon: <FaCode className={styles.icon}  />,
     },
     {
       id: 4,
       text: "Work",
       link: "./",
-      icon: <FaDesktop />,
+      icon: <FaDesktop className={styles.icon}  />,
     },
     {
       id: 5,
       text: "Blog",
       link: "./",
-      icon: <FaPenAlt />,
+      icon: <FaPenAlt className={styles.icon}  />,
     },
     {
       id: 6,
       text: "Contact",
       link: "./",
-      icon: <FaPaperPlane />,
+      icon: <FaPaperPlane className={styles.icon}  />,
     },
   ]
 
@@ -64,7 +64,6 @@ const List: React.FC = () => {
         {
           listItems.map((item, i) => (
             <div className={styles.item}>
-              {/* react icons import here */}
               {item.icon}
               <a className={styles.link} key={i} href={item.link}>{item.text}</a>
             </div>
