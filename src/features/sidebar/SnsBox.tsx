@@ -1,5 +1,8 @@
 import React from "react";
 
+// import reacticons
+// import { FaBeer, FaHome } from "react-icons/fa";
+
 // css import
 import styles from "./SnsBox.module.css";
 

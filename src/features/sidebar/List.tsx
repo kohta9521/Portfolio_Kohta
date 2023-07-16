@@ -1,5 +1,8 @@
 import React from "react";
 
+// react icons import
+import { FaHome } from "react-icons/fa";
+
 // css import
 import styles from "./List.module.css";
 
@@ -9,7 +12,7 @@ type listItems = {
   id: number;
   text: string;
   link: string;
-  icon: string;
+  icon: React.ReactElement;
 };
 
 
@@ -21,7 +24,7 @@ const List: React.FC = () => {
       id: 1,
       text: "Home",
       link: "./",
-      icon: "Home",
+      icon: <FaHome />,
     }
   ]
 
@@ -32,8 +35,8 @@ const List: React.FC = () => {
           listItems.map((item, i) => (
             <div className={styles.item}>
               {/* react icons import here */}
-              <img src="" alt="react icons" />
-              <a href={item.link}>{item.text}</a>
+              {item.icon}
+              <a className={styles.link} key={i} href={item.link}>{item.text}</a>
             </div>
           ))
         }
