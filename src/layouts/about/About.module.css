@@ -1,6 +1,7 @@
 .about {
-  width: 500px;
-  height: 200px;
+  width: 950px;
+  height: 500px;
   background-color: blue;
   margin: 0;
+  border-radius: 15px;
 }
