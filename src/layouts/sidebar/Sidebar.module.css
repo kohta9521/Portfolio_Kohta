@@ -1,7 +1,13 @@
 .sidebar {
   width: 180px;
   height: 100%;
+  overflow: hidden;
   background-color: gray;
+}
+.container {
+  width: 100%;
+  hegiht: 90%;
+  margin-top: 90px;
 }
 
 /* タブレット */

@@ -1,7 +1,8 @@
 .buttonArea {
   width: 200px;
   height: 80px;
-  padding: 5px;
+  padding: 7px;
+  margin-right: 20px;
 }
 .button {
   display: block;

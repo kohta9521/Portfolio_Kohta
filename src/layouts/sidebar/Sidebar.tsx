@@ -11,9 +11,12 @@ const Sidebar: React.FC = () => {
   return (
     <>
       <div className={styles.sidebar}>
-        <LogoImg />
-        <List />
-        <SnsBox />
+        <div className={styles.container}>
+          {/* header componets内にlogo componentを作成認め不要 */}
+          {/* <LogoImg /> */}
+          <List />
+          <SnsBox />
+        </div>
       </div>
     </>
   )
