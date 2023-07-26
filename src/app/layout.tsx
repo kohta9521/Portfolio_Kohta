@@ -1,4 +1,3 @@
-import styles from  '../styles/page.module.css';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={styles.body}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
