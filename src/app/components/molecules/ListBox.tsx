@@ -8,7 +8,7 @@ import List from "../atoms/List";
 const ListBox: React.FC = () => {
   return (
     <div className={styles.listBox}>
-      <List />
+      <List  id={0} text="Home" link="/" color="white" size="medium" />
     </div>
   )
 }
