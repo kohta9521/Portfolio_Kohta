@@ -1,5 +1,5 @@
 .logo {
-  width: 200px;
+  width: 180px;
   height: 100px;
   line-height: 100px;
   margin-left: 30px;
@@ -15,15 +15,15 @@
 
 /* props */
 .small {
-  width: 200px;
+  width: 150px;
   height: 80px;
 }
 .medium {
-  width: 200px;
+  width: 180px;
   height: 100px;
 }
 .large {
-  width: 400px;
+  width: 230px;
   height: 130px;
 }
 
