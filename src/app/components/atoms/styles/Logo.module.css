@@ -1,0 +1,34 @@
+.logo {
+}
+.container {
+}
+.logoimg {
+}
+
+/* props */
+.small {
+}
+.medium {
+}
+.large {
+}
+
+/* タブレット */
+@media screen and (max-width: 1280px) {
+  .logo {
+  }
+  .container {
+  }
+  .logoimg {
+  }
+}
+
+/* スマートフォン */
+@media screen and (max-width: 768px) {
+  .logo {
+  }
+  .container {
+  }
+  .logoimg {
+  }
+}
