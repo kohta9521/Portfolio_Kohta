@@ -8,7 +8,9 @@ import Logo from "../atoms/Logo";
 const Header: React.FC = () => {
   return (
     <div className={styles.header}>
-      <Logo />
+      <div className={styles.container}>
+        <Logo link="/" size="medium" />
+      </div>
     </div>
   )
 }

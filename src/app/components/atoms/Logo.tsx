@@ -5,16 +5,17 @@ import styles from "./styles/Logo.module.css";
 
 // props type
 interface LogoProps {
+  link: string;
   size?: "small" | "medium" | "large";
 }
 
 
-const Logo: React.FC<LogoProps> = ({ size = "medium" }) => {
+const Logo: React.FC<LogoProps> = ({ link= "/",  size = "medium" }) => {
   return (
     <div className={`${styles.logo} ${styles[size]}`}>
-      <div className={styles.container}>
-        <img className={styles.logoimg} src="" alt="ロゴ画像" />
-      </div>
+      <a className={styles.container} href={link}>
+        <img className={styles.logoimg} src="img/logo.png" alt="ロゴ画像" />
+      </a>
     </div>
   )
 }
