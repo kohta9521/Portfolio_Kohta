@@ -2,13 +2,13 @@ import React, { FC } from "react";
 
 // css import
 import styles from "./styles/MainLayout.module.css";
-import Hero from "../organisms/Hero";
+import Header from "../organisms/Header";
 
 
 const MainLayout: React.FC = () => {
   return (
     <>
-    <Hero />
+    <Header />
     </>
   )
 }
