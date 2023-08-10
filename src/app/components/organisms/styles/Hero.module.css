@@ -14,3 +14,33 @@
 .title-container.show .title {
   margin-left: 0;
 }
+
+/* css typing animation */
+.wrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: black;
+}
+.typingtext {
+  width: 30ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 3em;
+  color: #00ff00;
+  animation: typing 4s steps(30), blink 1.2s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
