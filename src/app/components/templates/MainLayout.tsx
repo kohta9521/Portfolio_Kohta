@@ -4,6 +4,7 @@ import React, { FC } from "react";
 import styles from "./styles/MainLayout.module.css";
 import Header from "../organisms/Header";
 import Hero from "../organisms/Hero";
+import Footer from "../organisms/Footer";
 
 
 const MainLayout: React.FC = () => {
@@ -11,6 +12,7 @@ const MainLayout: React.FC = () => {
     <>
     <Header />
     <Hero />
+    <Footer />
     </>
   )
 }
