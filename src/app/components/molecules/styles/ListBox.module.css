@@ -7,8 +7,14 @@
 
 /* タブレット */
 @media screen and (max-width: 1280px) {
+  .listBox {
+    display: none;
+  }
 }
 
 /* スマートフォン */
 @media screen and (max-width: 768px) {
+  .listBox {
+    display: none;
+  }
 }
