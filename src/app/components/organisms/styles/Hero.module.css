@@ -17,20 +17,20 @@
 
 /* css typing animation */
 .wrapper {
+  margin-top: 25%;
   display: grid;
-  place-items: center;
-  height: 100vh;
+  place-items: left;
   background: black;
 }
 .typingtext {
-  width: 30ch;
+  width: 34ch;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
   font-size: 3em;
   color: #00ff00;
-  animation: typing 4s steps(30), blink 1.2s step-end infinite;
+  animation: typing 4s steps(34), blink 1.2s step-end infinite;
 }
 
 @keyframes typing {

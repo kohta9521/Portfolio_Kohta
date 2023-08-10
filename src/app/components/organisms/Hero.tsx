@@ -9,9 +9,12 @@ const Hero: React.FC = () => {
     <div className={styles.hero}>
      <div className={styles.container}>
         <div className={styles.wrapper}>
-        <h1 className={styles.typingtext}>
-          Welcome to my Portfolio Site
-        </h1>
+        <p className={styles.typingtext}>
+          → Portfolio_Kohta git:(develop) : npm run dev
+        </p>
+        {/* <h1 className={styles.typingtext2}>
+          →Welcome to my Portfolio Site!!
+        </h1> */}
         </div>
      </div>
     </div>
