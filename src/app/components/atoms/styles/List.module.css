@@ -1,3 +1,100 @@
 .list {
-  
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.list::after,
+.list::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #00ff00;
+  transition: transform 0.2s ease-in-out;
+}
+.list::before {
+  top: 0;
+  transform: translateX(-100%);
+}
+.list::after {
+  bottom: 0;
+  transform: translateX(100%);
+}
+.list:hover::after,
+.list:hover::before {
+  transform: translateX(0);
+}
+
+.link {
+  line-height: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* porps */
+.white {
+  color: white;
+}
+.gray {
+  color: gray;
+}
+.small {
+  font-size: 14px;
+}
+.medium {
+  font-size: 18px;
+}
+.link:hover {
+  color: #00ff00;
+  transition: 0.5s;
+  /* color: linear-gradient(90deg, #ef32d9 0%, #89fffd 100%); */
+}
+
+/* タブレット */
+@media screen and (max-width: 1280px) {
+}
+
+/* スマートフォン */
+@media screen and (max-width: 768px) {
+}
+
+.animoDoubleDashed {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  padding: 0 14px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.animoDoubleDashed::after,
+.animoDoubleDashed::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #f39c12;
+  transition: transform 0.2s ease-in-out;
+}
+.animoDoubleDashed::before {
+  top: 0;
+  transform: translateX(-100%);
+}
+.animoDoubleDashed::after {
+  bottom: 0;
+  transform: translateX(100%);
+}
+.animoDoubleDashed:hover::after,
+.animoDoubleDashed:hover::before {
+  transform: translateX(0);
 }
