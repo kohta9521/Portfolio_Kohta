@@ -12,7 +12,6 @@ const MainLayout: React.FC = () => {
     <>
     <Header />
     <Hero />
-    <Footer />
     </>
   )
 }
