@@ -5,6 +5,7 @@ import styles from "./styles/MainLayout.module.css";
 import Header from "../organisms/Header";
 import Hero from "../organisms/Hero";
 import Footer from "../organisms/Footer";
+import Profile from "../organisms/Profile";
 
 
 const MainLayout: React.FC = () => {
@@ -12,6 +13,7 @@ const MainLayout: React.FC = () => {
     <>
     <Header />
     <Hero />
+    <Profile />
     </>
   )
 }
