@@ -9,6 +9,31 @@ const Profile: React.FC = () => {
   return (
     <div className={styles.profile}>
       <Title id={0} idtext="profile" text="My Profile" />
+      <div className={styles.flexBox}>
+        <div className={styles.imgBox}>
+         <img className={styles.img} src="/img/profile.jpg" alt="profile画像" />
+        </div>
+        <div className={styles.textBox}>
+          <p className={styles.text}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, beatae voluptat
+            um cupiditate aut dolore, esse quaerat possimus eaque sit sapiente sequi repu
+            diandae, magnam nostrum magni molestias dolor dignissimos vero dolores.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, beatae voluptat
+            um cupiditate aut dolore, esse quaerat possimus eaque sit sapiente sequi repu
+            diandae, magnam nostrum magni molestias dolor dignissimos vero dolores.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, beatae voluptat
+            um cupiditate aut dolore, esse quaerat possimus eaque sit sapiente sequi repu
+            diandae, magnam nostrum magni molestias dolor dignissimos vero dolores.
+          </p>
+          <div className={styles.buttonBox}>
+            <a className={styles.button} href="/">
+              View More
+            </a>
+        </div>
+        </div>
+      </div>
     </div>
   )
 }

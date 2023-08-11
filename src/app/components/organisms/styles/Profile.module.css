@@ -1,6 +1,51 @@
 .profile {
-  width: 100%;
+  width: 90%;
   height: 100vh;
+  margin: 0 auto;
   box-sizing: border-box;
   padding: 0px 10px 0px 10px;
+}
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+}
+.imgBox {
+  width: 45%;
+}
+.img {
+  width: 100%;
+}
+.textBox {
+  width: 45%;
+}
+.text {
+  width: 100%;
+  font-size: 20px;
+  color: white;
+}
+
+/* タブレット */
+@media screen and (max-width: 1280px) {
+  .profile {
+    width: 100%;
+    height: 100vh;
+    padding: 0px 5px 0px 5px;
+  }
+  .flexBox {
+    display: block;
+  }
+  .imgBox {
+    width: 100%;
+  }
+  .textBox {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+/* スマートフォン */
+@media screen and (max-width: 768px) {
 }
