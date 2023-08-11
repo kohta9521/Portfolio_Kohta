@@ -3,6 +3,8 @@ import React, { FC } from "react";
 // css import
 import styles from "./styles/Profile.module.css";
 import Title from "../atoms/Title";
+import { link } from "fs";
+import Button from "../atoms/Button";
 
 
 const Profile: React.FC = () => {
@@ -28,9 +30,7 @@ const Profile: React.FC = () => {
             diandae, magnam nostrum magni molestias dolor dignissimos vero dolores.
           </p>
           <div className={styles.buttonBox}>
-            <a className={styles.button} href="/">
-              View More
-            </a>
+            <Button id={0} text="View More" link="/" size="medium"  />
         </div>
         </div>
       </div>
