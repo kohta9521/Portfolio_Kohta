@@ -6,6 +6,7 @@ import Header from "../organisms/Header";
 import Hero from "../organisms/Hero";
 import Footer from "../organisms/Footer";
 import Profile from "../organisms/Profile";
+import Blog from "../organisms/Blog";
 
 
 const MainLayout: React.FC = () => {
@@ -14,6 +15,8 @@ const MainLayout: React.FC = () => {
     <Header />
     <Hero />
     <Profile />
+    <Blog />
+    <Footer />
     </>
   )
 }

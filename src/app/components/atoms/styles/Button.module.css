@@ -1,5 +1,6 @@
 .button {
-  display: block;
+  positon: relative;
+  display: line-block;
   width: 180px;
   height: 40px;
   font-weight: bold;
@@ -7,13 +8,35 @@
   line-height: 40px;
   text-align: center;
   border-radius: 5px;
-  background-color: white;
   text-decoration: none;
   cursor: pointer;
   margin-top: 40px;
+  color: white;
+  border: 0.2px solid white;
+  padding: 10px 40px 10px 30px;
+  outline: none;
+  transition: ease 0.2s;
 }
 .button:hover {
+  background-color: #333;
 }
+.button::after {
+  content: "";
+  position: absolute;
+  top: 42%;
+  right: 13px;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+.button:hover::after {
+  right: 11px;
+}
+
+/* 矢印のcss記述部分 */
 
 /* propt styling */
 .small {

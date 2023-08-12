@@ -8,12 +8,13 @@ type Props = {
   id: number;
   idtext: string;
   text: string;
+  align: string;
 }
 
 
-const Title: React.FC<Props> = ({ id, idtext, text }) => {
+const Title: React.FC<Props> = ({ id, idtext, text, align = "left" }) => {
   return (
-    <div className={styles.titleBox} key={id} id={idtext}>
+    <div className={`${styles.titleBox} ${styles[align]}`} key={id} id={idtext}>
       <h1 className={styles.title}>
         {text}
       </h1>

@@ -10,7 +10,7 @@ import Button from "../atoms/Button";
 const Profile: React.FC = () => {
   return (
     <div className={styles.profile}>
-      <Title id={0} idtext="profile" text="My Profile" />
+      <Title id={0} idtext="profile" text="My Profile" align="left" />
       <div className={styles.flexBox}>
         <div className={styles.imgBox}>
          <img className={styles.img} src="/img/profile.jpg" alt="profile画像" />
