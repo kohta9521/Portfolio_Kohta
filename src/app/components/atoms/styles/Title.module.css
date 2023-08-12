@@ -2,11 +2,35 @@
 .titleBox {
   width: 100%;
   height: 90px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .title {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   margin: 0px;
   font-weight: bold;
   font-family: "Overpass", sans-serif;
+}
+
+/* props css styling */
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+/* タブレット */
+@media screen and (max-width: 1280px) {
+}
+
+/* スマートフォン */
+@media screen and (max-width: 768px) {
+  .titleBox {
+    margin-bottom: 0px;
+  }
 }
