@@ -5,6 +5,7 @@ import React, { FC, useRef, useEffect } from "react";
 // css import
 import styles from "./styles/Blog.module.css";
 import Title from "../atoms/Title";
+import BlogCard from "../molecules/BlogCard";
 
 
 const Blog: React.FC = () => {
@@ -31,9 +32,7 @@ const Blog: React.FC = () => {
       <div ref={screenRef} className={styles.screen}>
         <div className={styles.container}>
           <div className={styles.page}>
-            <div className={styles.text}>
-              page 1
-            </div>
+            <BlogCard />
           </div>
           <div className={styles.page}>
             <div className={styles.text}>
