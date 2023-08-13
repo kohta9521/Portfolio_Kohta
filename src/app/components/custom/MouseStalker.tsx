@@ -9,7 +9,7 @@ const initMouse = {
   opacity: 0,
   top: 0,
   left: 0,
-};g
+};
 
 const springConfig = {
   // 変化の速さ. 大きくすると遅くなる.
