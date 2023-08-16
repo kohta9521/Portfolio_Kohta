@@ -26,6 +26,7 @@
 .flexImg1 {
   position: absolute;
   top: 4%;
+  right: 0;
 }
 .flexImg2 {
   position: absolute;
@@ -43,4 +44,30 @@
 
 /* スマートフォン */
 @media screen and (max-width: 768px) {
+  .profile {
+    position: static;
+    width: 98%;
+    height: 120%;
+  }
+  .flexBox {
+    display: block;
+  }
+  .textBox {
+    width: 100%;
+  }
+  .text {
+    font-size: 13px;
+  }
+  .imgFlexBox {
+    width: 100%;
+  }
+  .flexImg1 {
+    display: none;
+    position: static;
+    width: 100%;
+  }
+  .flexImg2 {
+    position: static;
+    width: 100%;
+  }
 }
