@@ -13,9 +13,7 @@ const initMouse = {
 };
 
 const springConfig = {
-  // 変化の速さ. 大きくすると遅くなる.
   frequency: 0.2,
-  // どのタイミングで減速するか. 大きくすると減速の開始が速くなる.
   damping: 2,
 };
 
@@ -23,7 +21,7 @@ const mouseStyles: CSSProperties = {
   pointerEvents: 'none',
   position: 'fixed',
   zIndex: 100,
-   backgroundColor: 'red',
+   backgroundColor: 'white',
   mixBlendMode: 'difference',
 };
 

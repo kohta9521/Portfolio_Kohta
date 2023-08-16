@@ -19,14 +19,12 @@ const useMouseMove = (initMouse: Mouse, setSpringStyles: SpringRef<Mouse>, times
     if (isOver) {
       setSpringStyles.start({
         opacity: 100,
-        // 大きくした分だけ割る値も小さくする
         top: e.y - initMouse.height / (2 / times),
         left: e.x - initMouse.width / (2 / times),
       });
       } else {
       setSpringStyles.start({
         opacity: 100,
-        // initMouse.* / 2 は真ん中合わせ
         top: e.y - initMouse.height / 2,
         left: e.x - initMouse.width / 2,
       });
@@ -35,7 +33,6 @@ const useMouseMove = (initMouse: Mouse, setSpringStyles: SpringRef<Mouse>, times
 
     window.addEventListener('mousemove', listener);
 
-    // EventListenerを追加したら、クリーンアップ関数で忘れずにremoveする(戒め
     return () => {
       window.removeEventListener('mousemove', listener);
     };
