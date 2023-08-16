@@ -30,7 +30,7 @@ const Profile: React.FC = () => {
             diandae, magnam nostrum magni molestias dolor dignissimos vero dolores.
           </p>
           <div className={styles.buttonBox}>
-            <Button id={0} text="View More" link="/" size="medium"  />
+            <Button id={0} text="View More" link="/pages/profile/" size="medium"  />
         </div>
         </div>
       </div>

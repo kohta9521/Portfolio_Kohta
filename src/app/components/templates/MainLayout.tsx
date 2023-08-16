@@ -16,8 +16,8 @@ const MainLayout: React.FC = () => {
     <Header />
     <Hero />
     <Profile />
-    <BesideScroll />
-    <Blog />
+    {/* <BesideScroll />
+    <Blog /> */}
     <Footer />
     </>
   )
