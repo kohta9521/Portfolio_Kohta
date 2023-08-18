@@ -14,7 +14,7 @@
   font-weight: bold;
   font-family: "Overpass", sans-serif;
 }
-.title2 {
+/* .title2 {
   position: absolute;
   top: -50px;
   left: 20px;
@@ -22,7 +22,7 @@
   font-size: 90px;
   text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff,
     1px -1px 0 #fff, 0px 1px 0 #fff, 0-1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
-}
+} */
 
 /* props css styling */
 .left {
