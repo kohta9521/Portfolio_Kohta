@@ -18,9 +18,9 @@ const Title: React.FC<Props> = ({ id, idtext, text, align = "left" }) => {
       <h1 className={styles.title}>
         {text}
       </h1>
-      <h1 className={styles.title2}>
+      {/* <h1 className={styles.title2}>
         {text}
-      </h1>
+      </h1> */}
     </div>
   )
 }

@@ -8,6 +8,7 @@ import Footer from "../organisms/Footer";
 import Profile from "../organisms/Profile";
 import Blog from "../organisms/Blog";
 import BesideScroll from "../organisms/BesideScroll";
+import Work from "../organisms/Work";
 
 
 const MainLayout: React.FC = () => {
@@ -17,6 +18,7 @@ const MainLayout: React.FC = () => {
     <Hero />
     <Profile />
     <Blog />
+    <Work />
     <Footer />
     </>
   )
