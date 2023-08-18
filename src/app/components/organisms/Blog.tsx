@@ -17,7 +17,6 @@ const Blog: React.FC = () => {
         If you want to know more about my technical skills and ability to communicate, please feel free to take a look.
       </div>
       <div className={styles.imgBox}>
-        
       </div>
       </div>
     </div>
