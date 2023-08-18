@@ -1,0 +1,23 @@
+.button {
+  width: 200px;
+  height: 40px;
+  padding-left: 15px;
+  border: 0.3px solid white;
+  cursor: pointer;
+}
+.button:hover {
+  border: 0.4px solid #808080;
+  transition: all 0.5s;
+}
+.link {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+}
+.link:hover {
+  color: #808080;
+  transition: all 0.5s;
+}

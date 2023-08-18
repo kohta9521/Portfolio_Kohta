@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({ link= "/",  size = "medium" }) => {
   return (
     <div className={`${styles.logo} ${styles[size]}`}>
       <a className={styles.container} href={link}>
-        <img className={styles.logoimg} src="img/logo.png" alt="ロゴ画像" />
+        <img className={styles.logoimg} src="/img/logo.png" alt="ロゴ画像" />
       </a>
     </div>
   )

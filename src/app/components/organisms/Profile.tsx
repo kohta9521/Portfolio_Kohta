@@ -5,6 +5,7 @@ import styles from "./styles/Profile.module.css";
 import Title from "../atoms/Title";
 import { link } from "fs";
 import Button from "../atoms/Button";
+import ViewMore from "../atoms/ViewMore";
 
 
 const Profile: React.FC = () => {
@@ -20,6 +21,7 @@ const Profile: React.FC = () => {
           I also run ENTER, an engineering club for university students only. Recently, I have been studying web 3.0 and other fields of interest.<br />
           I hope you enjoy your time here!
           </p>
+          <ViewMore id={0} link="/pages/profile" />
         </div>
         <div className={styles.imgFlexBox}>
           <img className={styles.flexImg1} src="/img/profile2.jpg" alt="profileImg" />
