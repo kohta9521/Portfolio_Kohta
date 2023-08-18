@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 .titleBox {
   width: 100%;
-  height: 90px;
+  height: 120px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .title {
   color: white;
-  font-size: 55px;
+  font-size: 100px;
   margin: 0px;
   font-weight: bold;
   font-family: "Overpass", sans-serif;
@@ -31,6 +31,10 @@
 /* スマートフォン */
 @media screen and (max-width: 768px) {
   .titleBox {
+    height: 70px;
     margin-bottom: 0px;
+  }
+  .title {
+    font-size: 50px;
   }
 }

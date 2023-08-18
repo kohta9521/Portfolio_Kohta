@@ -1,34 +1,24 @@
 .blog {
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
   border: 1px solid white;
   overflow: hidden;
   color: white;
 }
-
-/* /side scroll styling */
-.screen {
-  postiion: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-  scrpll-behavior: amooth;
-}
 .container {
-  width: 300vw;
-  height: 100%;
-  display: flex;
+  width: 100%;
 }
-.page {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0085d1;
+.subText {
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
 }
-.text {
-  font-size: 3rem;
-  color: white;
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
 }

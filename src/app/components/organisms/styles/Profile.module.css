@@ -3,8 +3,9 @@
   width: 90%;
   max-width: 1300px;
   height: 1200px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin: 0 auto;
+  margin-bottom: 30px;
   box-sizing: border-box;
 }
 .flexBox {
@@ -18,6 +19,7 @@
 .text {
   color: white;
   font-size: 20px;
+  line-height: 30px;
   font-weight: bold;
 }
 .imgFlexBox {
@@ -30,7 +32,7 @@
 }
 .flexImg2 {
   position: absolute;
-  top: 54%;
+  top: 57%;
   right: 35%;
 }
 
