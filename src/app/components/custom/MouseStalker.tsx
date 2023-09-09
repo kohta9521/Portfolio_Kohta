@@ -21,7 +21,8 @@ const mouseStyles: CSSProperties = {
   pointerEvents: 'none',
   position: 'fixed',
   zIndex: 100,
-   backgroundColor: 'white',
+    border: "solid 0.3px black",
+  backgroundColor: 'white',
   mixBlendMode: 'difference',
 };
 
