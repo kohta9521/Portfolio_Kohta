@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning className={styles.html}>
       <body>
-      <PreLoader />
+      {/* <PreLoader /> */}
         {/* <Providers>
           <ThemeButton /> */}
           {children}
