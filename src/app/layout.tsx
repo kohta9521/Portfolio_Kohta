@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+// dark mode
+import Providers from "./components/custom/Providers";
+import ThemeButton from "./components/custom/ThemeButton";
+
 // css import
 import styles from  "./styles/page.module.css";
 
@@ -17,8 +21,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja" className={styles.html}>
-      <body>{children}</body>
+    <html lang="ja" suppressHydrationWarning>
+      <body>
+        <Providers>
+          <ThemeButton />
+          {children}
+        </Providers>
+      </body>
     </html>
-  )
+  );
 }
