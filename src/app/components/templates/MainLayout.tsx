@@ -7,6 +7,7 @@ import styles from "./styles/MainLayout.module.css";
 const MainLayout: React.FC = () => {
   return (
     <>
+    <h1>sample code</h1>
     </>
   )
 }
