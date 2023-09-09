@@ -1,0 +1,18 @@
+.logoLink {
+  display: block;
+  width: 200px;
+}
+.logoImg {
+  width: 200px;
+}
+
+/* props css */
+.small {
+  width: 200px;
+}
+.medium {
+  width: 200px;
+}
+.large {
+  width: 400px;
+}
