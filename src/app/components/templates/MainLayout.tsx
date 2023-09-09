@@ -8,6 +8,7 @@ const MainLayout: React.FC = () => {
   return (
     <>
     <h1>sample code</h1>
+    <a  className={styles.sampleButton} href="/">sample button</a>
     </>
   )
 }

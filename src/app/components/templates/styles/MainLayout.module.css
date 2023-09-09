@@ -1,0 +1,11 @@
+.sampleButton {
+  display: block;
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  line-height: 100px;
+  text-align: center;
+}
