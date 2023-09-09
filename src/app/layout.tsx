@@ -21,12 +21,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja" suppressHydrationWarning>
+    <html lang="ja" suppressHydrationWarning className={styles.html}>
       <body>
-        <Providers>
-          <ThemeButton />
+        {/* <Providers>
+          <ThemeButton /> */}
           {children}
-        </Providers>
+        {/* </Providers> */}
       </body>
     </html>
   );

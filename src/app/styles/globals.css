@@ -1,14 +1,15 @@
-:root {
-  --background: white;
+/* dark mode and right mode css */
+/* :root {
+  --background: #fff;
   --foreground: black;
 }
 
 [data-theme="dark"] {
   --backgrond: black;
-  --foreground: white;
+  --foreground: #fff;
 }
 
 body {
   backgrond: var(--background);
   color: var(--foreground);
-}
+} */
