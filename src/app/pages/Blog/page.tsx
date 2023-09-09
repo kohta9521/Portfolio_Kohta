@@ -12,3 +12,5 @@ const BlogPage: React.FC = () => {
 }
 
 export default BlogPage;
+
+// localhost:3000/blog
