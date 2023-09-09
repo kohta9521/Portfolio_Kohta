@@ -5,6 +5,9 @@ import { Inter } from 'next/font/google'
 import Providers from "./components/custom/Providers";
 import ThemeButton from "./components/custom/ThemeButton";
 
+// loading
+import PreLoader from "./components/custom/PreLoader";
+
 // css import
 import styles from  "./styles/page.module.css";
 
@@ -23,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning className={styles.html}>
       <body>
+      <PreLoader />
         {/* <Providers>
           <ThemeButton /> */}
           {children}
