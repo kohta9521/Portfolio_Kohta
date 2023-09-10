@@ -2,9 +2,10 @@ import React, { FC } from "react";
 
 // css import
 import styles from "./styles/MainLayout.module.css";
+
+// components import
 import Header from "../organisms/Header";
 import Hero from "../organisms/Hero";
-import Topic from "../organisms/Topic";
 import About from "../organisms/About";
 import Career from "../organisms/Career";
 import Work from "../organisms/Work";
