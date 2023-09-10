@@ -17,6 +17,7 @@ const Hero: React.FC = () => {
         <div className={styles.imgBox}>
           <img className={styles.img} src="/img/hero.jpg" alt="" />
         </div>
+        <div className={styles.scrolldown3}><span>Scroll</span></div>
       </div>
     </div>
   )
