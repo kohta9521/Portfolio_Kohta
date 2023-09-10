@@ -1,0 +1,14 @@
+.about {
+  width: 100%;
+  max-width: 1400px;
+  height: 1400px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}

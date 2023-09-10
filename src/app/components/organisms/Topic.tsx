@@ -11,7 +11,6 @@ const Topic: React.FC = () => {
   return (
     <div className={styles.topic}>
       <div className={styles.container}>
-
       </div>
     </div>
   )
