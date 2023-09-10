@@ -7,6 +7,11 @@ import Hero from "../organisms/Hero";
 import Topic from "../organisms/Topic";
 import About from "../organisms/About";
 import Career from "../organisms/Career";
+import Work from "../organisms/Work";
+import Portfolio from "../organisms/Portfolio";
+import Blog from "../organisms/Blog";
+import Contact from "../organisms/Contact";
+import Footer from "../organisms/Footer";
 
 
 const MainLayout: React.FC = () => {
@@ -18,6 +23,11 @@ const MainLayout: React.FC = () => {
     {/* <Topic /> */}
     <About />
     <Career />
+    <Work />
+    <Portfolio />
+    <Blog />
+    <Contact />
+    <Footer />
     </>
   )
 }
