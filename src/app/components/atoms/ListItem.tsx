@@ -60,7 +60,7 @@ const ListItem: React.FC<Props> = ({ listNumber  }) => {
 
   return (
     <div className={styles.listBox} key={selectHeaderItem.id}>
-      <a href={selectHeaderItem.link}>
+      <a className={styles.listLink} href={selectHeaderItem.link}>
         {selectHeaderItem.text}
       </a>
     </div>
