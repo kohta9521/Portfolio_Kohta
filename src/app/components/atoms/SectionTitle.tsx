@@ -8,12 +8,13 @@ type Props = {
   id: number,
   fill: boolean,
   text: string,
+  align: string,
 }
 
 
-const SectionTitle: React.FC<Props> = ({ id, fill = false, text }) => {
+const SectionTitle: React.FC<Props> = ({ id, fill = false, text, align = 'left' }) => {
   return (
-    <div className={styles.sectionTitle} key={id}>
+    <div className={`${styles.sectionTitle} ${styles[align]}`} key={id}>
       {fill ? (
         <h1 className={`${styles.title} ${styles.whiteText}`}>
           {text}

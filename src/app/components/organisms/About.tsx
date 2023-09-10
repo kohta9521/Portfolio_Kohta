@@ -12,8 +12,8 @@ const About: React.FC = () => {
   return (
     <div className={styles.about} id='about'>
       <div className={styles.container}>
-        <SectionTitle id={1} fill={true} text='ABOUT' />
-        <SectionTitle id={1} fill={false} text='THIS PORTFOLIO SITE' />
+        <SectionTitle id={1} fill={true} text='ABOUT' align='left' />
+        <SectionTitle id={2} fill={false} text='THIS PORTFOLIO SITE' align='left' />
       </div>
     </div>
   )

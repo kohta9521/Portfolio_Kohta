@@ -6,6 +6,7 @@ import Header from "../organisms/Header";
 import Hero from "../organisms/Hero";
 import Topic from "../organisms/Topic";
 import About from "../organisms/About";
+import Career from "../organisms/Career";
 
 
 const MainLayout: React.FC = () => {
@@ -16,6 +17,7 @@ const MainLayout: React.FC = () => {
     {/* newsとして入れたいデザイン的に少し合わないので当分実装しない */}
     {/* <Topic /> */}
     <About />
+    <Career />
     </>
   )
 }
