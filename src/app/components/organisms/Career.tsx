@@ -9,7 +9,7 @@ const Career: React.FC = () => {
   return (
     <div className={styles.career} id="career">
       <div className={styles.container}>
-        <SectionTitle id={3} fill={true} text='MY' align='right' />
+        <SectionTitle id={3} fill={true} text='KOHTA' align='right' />
         <SectionTitle id={4} fill={false} text='PROFILE AND CAREER' align='right' />
       </div>
     </div>

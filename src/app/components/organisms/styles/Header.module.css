@@ -3,8 +3,7 @@
   height: 100px;
 }
 .container {
-  width: 95%;
-  max-width: 2000px;
+  width: 98%;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -14,12 +13,14 @@
 
 @media screen and (max-width: 1280px) {
   .header {
+    height: 80px;
   }
   .container {
   }
 }
 @media screen and (max-width: 768px) {
   .header {
+    height: 65px;
   }
   .container {
   }

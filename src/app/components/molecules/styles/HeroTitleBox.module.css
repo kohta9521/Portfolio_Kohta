@@ -13,7 +13,7 @@
   width: 100%;
   height: 70px;
   margin: 0;
-  font-size: 60px;
+  font-size: 50px;
   /* font-family: "Bebas Neue", sans-serif; */
   font-weight: bold;
   line-height: 70px;
@@ -30,7 +30,34 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .heroTitleBox {
+    height: 180px;
+    padding: 0;
+  }
+  .title {
+    height: 120px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .subTitle {
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .heroTitleBox {
+    height: 180px;
+  }
+  .title {
+    height: 130px;
+    font-size: 35px;
+    line-height: 39px;
+  }
+  .subTitle {
+    height: 60px;
+    font-size: 11px;
+    line-height: 15px;
+  }
 }
