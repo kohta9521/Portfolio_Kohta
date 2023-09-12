@@ -15,7 +15,7 @@ const About: React.FC = () => {
       <div className={styles.container}>
         <SectionTitle id={1} fill={true} text='ABOUT' align='left' />
         <SectionTitle id={2} fill={false} text='THIS PORTFOLIO SITE' align='left' />
-        <Button id={1} toLink='/' text={1} />
+        {/* <Button id={1} toLink='/' text={1} /> */}
       </div>
     </div>
   )
