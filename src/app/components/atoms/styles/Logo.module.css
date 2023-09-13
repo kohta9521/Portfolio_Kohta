@@ -19,4 +19,7 @@
 @media screen and (max-width: 1280px) {
 }
 @media screen and (max-width: 768px) {
+  .logoLink {
+    width: 100px;
+  }
 }

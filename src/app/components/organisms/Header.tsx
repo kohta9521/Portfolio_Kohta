@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <Logo id={1} size='medium' />
+        <Logo id={1} size='small' />
         <List />
       </div>
     </div>

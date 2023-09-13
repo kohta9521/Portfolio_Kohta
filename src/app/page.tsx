@@ -12,7 +12,7 @@ import PreLoader from "./components/custom/PreLoader";
 export default function Home() {
   return (
     <main>
-            {/* <PreLoader /> */}
+            <PreLoader />
       <MouseStalker />
       <MainPage />
     </main>

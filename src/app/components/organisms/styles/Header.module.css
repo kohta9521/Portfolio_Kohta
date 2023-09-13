@@ -20,8 +20,9 @@
 }
 @media screen and (max-width: 768px) {
   .header {
-    height: 65px;
+    height: 50px;
   }
   .container {
+    width: 99%;
   }
 }

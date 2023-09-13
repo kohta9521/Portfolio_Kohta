@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100%;
   background: #000;
-  border-top: 3px solid #00ff00;
   color: #fff;
   position: fixed;
   bottom: 0;
@@ -19,9 +18,10 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  width: 300px;
-  font-size: 20px;
+  width: 500px;
+  font-size: 40px;
   font-weight: 800;
   overflow: hidden;
-  color: #00ff00;
+  -webkit-text-stroke: 1px #00ff00;
+  color: black;
 }
