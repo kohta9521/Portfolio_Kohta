@@ -52,10 +52,12 @@ const Button: React.FC<Props> =
   return (
     <a
     key={id}
-    className={`${styles.button} ${styles[size]} ${styles[color]}`}
+    className={`${styles.button} ${styles.bgleft} ${styles[size]} ${styles[color]}`}
     href={toLink}
     >
-      {textNumber.textContent}
+      <span>
+        {textNumber.textContent}
+      </span>
     </a>
   )
 }

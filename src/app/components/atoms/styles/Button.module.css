@@ -1,6 +1,52 @@
 /* common style */
 .button {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #00ff00;
+  padding: 10px 30px;
+  text-align: center;
+  outline: none;
+  transition: ease 0.2s;
+}
+.button span {
+  positino: relative;
+  z-index: 3;
+  color: #00ff00;
+}
+.button:hover span {
   color: white;
+}
+.bgleft:before {
+  content: "";
+  /*絶対配置で位置を指定*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  /*色や形状*/
+  background: #00ff00; /*背景色*/
+  width: 100%;
+  height: 100%;
+  /*アニメーション*/
+  transition: transform 0.6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+  transform: scale(0, 1);
+  transform-origin: right top;
+}
+.bgleft:hover:before {
+  transform-origin: left top;
+  transform: scale(1, 1);
 }
 
 /* props style */
+.small {
+}
+.medium {
+}
+.large {
+}
+.bgBlack {
+}
+.bgGreen {
+}
