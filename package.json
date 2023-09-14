@@ -6,13 +6,22 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "eslint --fix app.js",
+    "format": "prettier --write app.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.tsx": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "firebase": "^10.0.0",
     "gsap": "^3.12.2",
@@ -24,5 +33,10 @@
     "react-spring": "^9.7.2",
     "react-transition-group": "^4.4.5",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1"
   }
 }
