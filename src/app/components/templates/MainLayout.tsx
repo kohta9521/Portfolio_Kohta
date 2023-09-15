@@ -22,9 +22,9 @@ const MainLayout: React.FC = () => {
     <Hero />
     {/* newsとして入れたいデザイン的に少し合わないので当分実装しない */}
     {/* <Topic /> */}
- <About />
-   {/*
+    <About />
     <Career />
+       {/*
     <Work />
     <Portfolio />
     <Blog />
