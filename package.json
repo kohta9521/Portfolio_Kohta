@@ -9,8 +9,7 @@
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix": "eslint --fix app.js",
-    "format": "prettier --write app.js",
-    "prepare": "husky install"
+    "format": "prettier --write app.js"
   },
   "lint-staged": {
     "*.tsx": [

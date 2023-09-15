@@ -15,7 +15,33 @@
 }
 .textBox {
   width: 47%;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
   border: 1px solid white;
+}
+.titleFlex {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+.title {
+  display: block;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0;
+}
+.date {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 20px;
+}
+.mainText {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
 }
 .imgBox {
   width: 50%;
