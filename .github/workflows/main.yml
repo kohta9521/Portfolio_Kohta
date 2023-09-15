@@ -15,4 +15,3 @@ jobs:
         run: npm run format
       - name: Lint
         run: npm run lint
-ß

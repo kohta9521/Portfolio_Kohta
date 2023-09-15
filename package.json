@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fix": "eslint --fix app.js",
-    "format": "prettier --write app.js"
+    "fix": "eslint --fix",
+    "format": "prettier --write"
   },
   "lint-staged": {
     "*.tsx": [
