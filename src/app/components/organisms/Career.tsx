@@ -3,14 +3,18 @@ import React, { FC } from "react";
 // css import
 import styles from "./styles/Career.module.css";
 import SectionTitle from "../atoms/SectionTitle";
+import CareerCard from "../molecules/CareerCard";
 
 
 const Career: React.FC = () => {
   return (
     <div className={styles.career} id="career">
       <div className={styles.container}>
-        <SectionTitle id={3} fill={true} text='KOHTA' align='right' />
-        <SectionTitle id={4} fill={false} text='PROFILE AND CAREER' align='right' />
+        <SectionTitle id={3} fill={true} text='My' align='left' />
+        <SectionTitle id={3} fill={false} text='CAREER' align='left' />
+        <CareerCard />
+        <CareerCard />
+        <CareerCard />
       </div>
     </div>
   )

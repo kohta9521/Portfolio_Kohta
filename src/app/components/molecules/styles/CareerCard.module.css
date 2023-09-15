@@ -1,0 +1,28 @@
+.card {
+  width: 95%;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.textBox {
+  width: 47%;
+  border: 1px solid white;
+}
+.imgBox {
+  width: 50%;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 768px) {
+}

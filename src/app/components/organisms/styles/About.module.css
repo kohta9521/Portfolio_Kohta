@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@600&display=swap');
 
 .about {
   width: 100%;
@@ -28,7 +28,7 @@
   display: block;
   font-size: 19px;
   margin-bottom: 50px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
 .imgbox {
   width: 50%;
@@ -36,7 +36,7 @@
 }
 .img {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 @media screen and (max-width: 1280px) {

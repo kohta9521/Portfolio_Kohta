@@ -1,7 +1,7 @@
-"use client";
-import React, { useEffect } from "react";
-import "./preloader.css";
-import { preLoaderAnim } from "../../animation";
+'use client';
+import React, { useEffect } from 'react';
+import './preloader.css';
+import { preLoaderAnim } from '../../animation';
 
 const PreLoader = () => {
   useEffect(() => {
@@ -11,9 +11,9 @@ const PreLoader = () => {
   return (
     <div className="preloader">
       <div className="texts-container">
-        <span>Kohta　 </span>
+        {/* <span>Kohta　 </span>
         <span>Engineer　 </span>
-        <span>Portfolio　</span>
+        <span>Portfolio　</span> */}
       </div>
     </div>
   );
