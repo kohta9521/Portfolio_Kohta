@@ -65,7 +65,7 @@
 }
 
 .scrolldown3 span::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 10px;
   left: 17px;
@@ -94,7 +94,7 @@
 }
 
 .scrolldown3:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: -10px;
@@ -105,7 +105,7 @@
 }
 
 .scrolldown3:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 26px;
   left: 0;

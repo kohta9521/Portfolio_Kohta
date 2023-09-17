@@ -16,7 +16,7 @@
   position: absolute;
   bottom: -20px;
   left: 0;
-  content: "";
+  content: '';
   width: 90%;
   height: 3px;
   background-color: #00ff00;

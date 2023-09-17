@@ -7,9 +7,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "fix": "eslint --fix",
-    "format": "prettier --write"
+    "format": "npx prettier --write .",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.tsx": [
@@ -38,5 +37,10 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-ja"
+    }
   }
 }

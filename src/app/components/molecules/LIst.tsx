@@ -1,12 +1,10 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
 // components import
 
-
 // css import
-import styles from "./styles/List.module.css";
-import ListItem from "../atoms/ListItem";
-
+import styles from './styles/List.module.css';
+import ListItem from '../atoms/ListItem';
 
 const List: React.FC = () => {
   return (
@@ -19,7 +17,7 @@ const List: React.FC = () => {
       <ListItem listNumber={6} />
       <ListItem listNumber={7} />
     </div>
-  )
-}
+  );
+};
 
 export default List;
