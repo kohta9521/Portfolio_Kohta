@@ -3,17 +3,26 @@
   height: 100px;
 }
 .container {
-  widht: 95%;
-  height: 100px;
+  width: 98%;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-/* タブレット */
 @media screen and (max-width: 1280px) {
+  .header {
+    height: 80px;
+  }
+  .container {
+  }
 }
-
-/* スマートフォン */
 @media screen and (max-width: 768px) {
+  .header {
+    height: 50px;
+  }
+  .container {
+    width: 99%;
+  }
 }

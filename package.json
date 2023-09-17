@@ -4,21 +4,43 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "npx prettier --write .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.tsx": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "firebase": "^10.0.0",
+    "gsap": "^3.12.2",
     "next": "13.4.10",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "react-spring": "^9.7.2",
+    "react-transition-group": "^4.4.5",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-ja"
+    }
   }
 }

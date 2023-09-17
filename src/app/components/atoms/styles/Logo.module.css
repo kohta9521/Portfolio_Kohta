@@ -1,47 +1,25 @@
-.logo {
-  width: 130px;
-  margin-top: 20px;
-  margin-left: 30px;
-}
-.container {
+.logoLink {
   display: block;
-  width: 100%;
-  cursor: pointer;
+  width: 200px;
 }
-.logoimg {
-  width: 100%;
+.logoImg {
 }
 
-/* props */
+/* props css */
 .small {
   width: 100px;
-  height: 80px;
 }
 .medium {
-  width: 130px;
-  height: 100px;
+  width: 150px;
 }
 .large {
-  width: 230px;
-  height: 130px;
+  width: 200px;
 }
 
-/* タブレット */
 @media screen and (max-width: 1280px) {
-  .logo {
-  }
-  .container {
-  }
-  .logoimg {
-  }
 }
-
-/* スマートフォン */
 @media screen and (max-width: 768px) {
-  .logo {
-  }
-  .container {
-  }
-  .logoimg {
+  .logoLink {
+    width: 100px;
   }
 }

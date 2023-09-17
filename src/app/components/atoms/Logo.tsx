@@ -1,23 +1,24 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 
 // css import
-import styles from "./styles/Logo.module.css";
+import styles from './styles/Logo.module.css';
 
-// props type
-interface LogoProps {
-  link: string;
-  size?: "small" | "medium" | "large";
-}
+// propt type
+type Props = {
+  id: number;
+  size?: 'small' | 'medium' | 'large';
+};
 
-
-const Logo: React.FC<LogoProps> = ({ link= "/",  size = "medium" }) => {
+const Logo: React.FC<Props> = ({ id, size = 'medium' }) => {
   return (
-    <div className={`${styles.logo} ${styles[size]}`}>
-      <a className={styles.container} href={link}>
-        <img className={styles.logoimg} src="img/logo.png" alt="ロゴ画像" />
-      </a>
-    </div>
-  )
-}
+    <a className={styles.logoLink} href="/" key={id}>
+      <img
+        className={`${styles.logoImg} ${styles[size]}`}
+        src="/img/logo.png"
+        alt="ウェブサイトロゴ画像"
+      />
+    </a>
+  );
+};
 
 export default Logo;

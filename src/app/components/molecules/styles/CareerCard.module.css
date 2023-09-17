@@ -1,0 +1,57 @@
+.card {
+  width: 95%;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.textBox {
+  width: 47%;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+.titleFlex {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+.title {
+  display: block;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0;
+}
+.date {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 20px;
+}
+.mainText {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+}
+.imgBox {
+  width: 50%;
+  border: 1px solid white;
+}
+.img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 768px) {
+}

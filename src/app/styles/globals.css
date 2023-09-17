@@ -1,0 +1,20 @@
+/* dark mode and right mode css */
+/* :root {
+  --background: #fff;
+  --foreground: black;
+}
+
+[data-theme="dark"] {
+  --backgrond: black;
+  --foreground: #fff;
+}
+
+body {
+  backgrond: var(--background);
+  color: var(--foreground);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@600&display=swap');
+
+:root {
+  font-family: 'Heebo', sans-serif;
+}
