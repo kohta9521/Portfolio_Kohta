@@ -12,9 +12,9 @@ const Career: React.FC = () => {
       <div className={styles.container}>
         <SectionTitle id={3} fill={true} text='My' align='left' />
         <SectionTitle id={3} fill={false} text='CAREER' align='left' />
-        <CareerCard />
-        <CareerCard />
-        <CareerCard />
+        <CareerCard id={1} flexPosition={true} />
+        <CareerCard id={2} flexPosition={false} />
+        <CareerCard id={3} flexPosition={true} />
       </div>
     </div>
   )

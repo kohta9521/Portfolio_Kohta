@@ -16,6 +16,5 @@
     "no-unused-vars": ["off"],
     // "camelcase": ["warn"]
     "linebreak-style": ["off"]
-  },
-  "extends": ["airbnb-base"]
+  }
 }
