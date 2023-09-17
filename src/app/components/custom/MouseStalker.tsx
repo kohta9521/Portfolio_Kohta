@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { FC, CSSProperties } from 'react';
 import { animated } from 'react-spring';
 import useMouseStalker from '../../hooks/useMouseStalker';
@@ -21,7 +21,7 @@ const mouseStyles: CSSProperties = {
   pointerEvents: 'none',
   position: 'fixed',
   zIndex: 100,
-    border: "solid 1px black",
+  border: 'solid 1px black',
   backgroundColor: 'white',
   mixBlendMode: 'difference',
 };

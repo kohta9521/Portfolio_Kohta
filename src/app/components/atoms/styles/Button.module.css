@@ -19,7 +19,7 @@
   color: white;
 }
 .bgleft:before {
-  content: "";
+  content: '';
   /*絶対配置で位置を指定*/
   position: absolute;
   top: 0;
