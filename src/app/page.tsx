@@ -1,5 +1,12 @@
-import styles from './styles/page.module.css'
+import { main } from 'ts-node/dist/bin'
+import styles from '../styles/page.module.css'
+import MouseStalker from '@/hooks/MouseStalker'
 
 export default function Home() {
-  return <div className={styles.main}>Hello World</div>
+  return (
+    <main className={styles.main}>
+      <MouseStalker />
+      Hello World
+    </main>
+  )
 }
