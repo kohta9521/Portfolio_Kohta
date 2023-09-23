@@ -1,46 +1,30 @@
 {
-  "name": "kohta_port",
+  "name": "portfolio_kohta",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier --write .",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.tsx": [
-      "prettier --write",
-      "eslint --fix"
-    ]
+    "format": "prettier --check ./src",
+    "format:fix": "prettier --write ./src"
   },
   "dependencies": {
-    "@types/node": "20.4.2",
-    "@types/react": "18.2.15",
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "eslint-config-next": "13.4.10",
-    "firebase": "^10.0.0",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.2",
     "gsap": "^3.12.2",
-    "next": "13.4.10",
-    "next-themes": "^0.2.1",
+    "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
     "react-spring": "^9.7.2",
-    "react-transition-group": "^4.4.5",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.49.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog-ja"
-    }
+    "prettier": "^3.0.3",
+    "sass": "^1.68.0"
   }
 }

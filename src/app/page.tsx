@@ -1,18 +1,12 @@
-import MouseStalker from './components/custom/MouseStalker';
-import MainPage from './pages';
-
-// css import
-import styles from './styles/page.module.css';
-
-// loading
-import PreLoader from './components/custom/PreLoader';
+import styles from '../styles/page.module.css'
+import MouseStalker from '@/hooks/MouseStalker'
+import Header from '@/components/toppage/Header'
 
 export default function Home() {
   return (
-    <main>
-      {/* <PreLoader /> */}
+    <main className={styles.main}>
       <MouseStalker />
-      <MainPage />
+      <Header />
     </main>
-  );
+  )
 }
