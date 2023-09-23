@@ -3,29 +3,14 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
-  overrides: [
-    {
-      env: {
-        node: true,
-      },
-      files: ['.eslintrc.{js,cjs}'],
-      parserOptions: {
-        sourceType: 'script',
-      },
-    },
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
   plugins: ['react'],
+  parser: '@typescript-eslint/parser',
   rules: {},
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   extends: [
     //...
     'plugin:@next/next/recommended',

@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "npx prettier --write ."
+    "lint": "next lint ./src",
+    "format": "npx prettier --write ./src"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
