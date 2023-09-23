@@ -6,10 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ./src",
-    "format": "prettier --check ./src",
-    "format:fix": "prettier --write ./src",
-    "lint:fix": "eslint --fix ./src"
+    "lint": "next lint",
+    "format": "npx prettier --write ."
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
@@ -40,5 +38,10 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-ja"
+    }
   }
 }
