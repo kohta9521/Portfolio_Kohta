@@ -1,6 +1,13 @@
 .sectionTitleBox {
+  display: block;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 .sectionTitleText {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 1280px) {
