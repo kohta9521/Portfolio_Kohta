@@ -5,6 +5,7 @@
   border: 1px solid white;
   border-radius: 20px;
   text-decoration: none;
+  margin-right: 20px;
 }
 .tagsLInk:hover {
   transition: all 0.8s;
@@ -18,5 +19,6 @@
   .tagsLInk {
     padding: 4px;
     font-size: 10px;
+    margin-right: 10px;
   }
 }

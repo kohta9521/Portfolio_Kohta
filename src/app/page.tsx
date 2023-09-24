@@ -6,14 +6,16 @@ import Project from '@/components/toppage/Project'
 
 // css import
 import styles from '../styles/page.module.css'
+import DropDown from '@/components/toppage/DropDown'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <MouseStalker />
-      <Template templateNumber={true}>
+      <Template templateNumber={false}>
         <Hero />
         <Project />
+        <DropDown />
       </Template>
     </main>
   )

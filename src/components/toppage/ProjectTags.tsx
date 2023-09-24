@@ -35,7 +35,7 @@ const ProjectTags = ({ tagNumber }: Props) => {
     },
     {
       id: 4,
-      linkUrl: '/tags/ARTICLES',
+      linkUrl: '/tags/articles',
       text: 'ARTICLES',
     },
   ]

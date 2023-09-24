@@ -28,8 +28,6 @@ const Logo = ({ size = 'medium' }: Props) => {
     <Link href="/" prefetch={false} className={styles.link}>
       <img
         src="/images/logo.png"
-        width={imageSize.width}
-        height={imageSize.height}
         alt="Picture of the author"
         className={styles.imgItem}
       />
