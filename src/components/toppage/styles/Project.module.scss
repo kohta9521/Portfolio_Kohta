@@ -1,7 +1,6 @@
 .project {
   width: 100%;
-  height: 200vh;
-  padding: 140px 20px 0 20px;
+  padding: 140px 20px 150px 20px;
   box-sizing: border-box;
 }
 .container {
@@ -26,6 +25,7 @@
   width: 90%;
   margin: 0 auto;
   font-size: 15px;
+  margin-bottom: 30px;
 }
 .ProjectsFlexCard {
   display: flex;
