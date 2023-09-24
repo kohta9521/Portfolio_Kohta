@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 // css import
 import styles from './styles/Hero.module.scss'
@@ -17,12 +16,10 @@ const Hero = () => {
           engineer in the future!
         </p>
         <div className={styles.heroImgBox}>
-          <Image
+          <img
             src="/images/HeroImg.png"
-            quality={100}
             width={2000}
             height={700}
-            priority={true}
             alt="heroTopPageImg"
             className={styles.heroImg}
           />
