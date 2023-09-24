@@ -1,9 +1,21 @@
 .card {
   width: 30%;
-  padding: 20px 10px;
+  padding: 20px 10px 40px 10px;
   box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 10px;
 }
 .cardImg {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+.cardTitle {
+  display: block;
+  height: 70px;
+  font-size: 25px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
 }
