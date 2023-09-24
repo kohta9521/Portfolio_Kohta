@@ -11,7 +11,12 @@ const Header = () => {
       <div className={styles.container}>
         <Logo size="large" />
         <div className={styles.headerListBox}>
-          <HeaderListButton id={1} text="WORKS" url="#works" size="medium" />
+          <HeaderListButton
+            id={1}
+            text="PROJECTS"
+            url="#projects"
+            size="medium"
+          />
           <HeaderListButton
             id={2}
             text="PROFILE"
