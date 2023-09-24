@@ -16,7 +16,10 @@
   text-align: center;
 }
 .flexTags {
-  margin: 030px auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -38,4 +41,29 @@
 }
 
 @media screen and (max-width: 768px) {
+  .project {
+    width: 100%;
+    padding: 100px 10px 100px 10px;
+    box-sizing: border-box;
+  }
+  .subTitle {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 100px;
+  }
+  .flexTags {
+    width: 300px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+  }
+  .subText {
+    margin-bottom: 10px;
+  }
+  .ProjectsFlexCard {
+    display: block;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto;
+  }
 }

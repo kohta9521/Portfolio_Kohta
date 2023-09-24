@@ -1,7 +1,6 @@
 .tagsLInk {
   padding: 10px;
   box-sizing: border-box;
-  margin-right: 20px;
   font-size: 13px;
   border: 1px solid white;
   border-radius: 20px;
@@ -10,4 +9,14 @@
 .tagsLInk:hover {
   transition: all 0.8s;
   background-color: #00ff00;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+  .tagsLInk {
+    padding: 4px;
+    font-size: 10px;
+  }
 }

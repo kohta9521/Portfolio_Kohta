@@ -1,4 +1,5 @@
 .card {
+  display: block;
   width: 30%;
   padding: 20px 10px 40px 10px;
   box-sizing: border-box;
@@ -16,6 +17,29 @@
   line-height: 70px;
   margin-bottom: 10px;
 }
+.tagsFlexBox {
+  display: block;
+}
 
 .card:hover {
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+  }
+  .cardTitle {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
