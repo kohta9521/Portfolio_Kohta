@@ -27,6 +27,9 @@ const Hero = () => {
             className={styles.heroImg}
           />
         </div>
+        <div className={styles.scrolldown3}>
+          <span>Scroll</span>
+        </div>
       </div>
     </div>
   )
