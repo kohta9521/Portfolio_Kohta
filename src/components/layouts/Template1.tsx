@@ -6,6 +6,7 @@ import Header from '../toppage/Header'
 // css import
 import styles from './styles/Template1.module.scss'
 import Footer from '../toppage/Footer'
+import Contact from '../toppage/Contact'
 
 // type props
 type Props = {
@@ -22,13 +23,13 @@ const Template = ({ children, templateNumber }: Props) => {
         <>
           <Header />
           {children}
+          <Contact />
           <Footer />
         </>
       ) : (
         <>
           <Header />
           {children}
-          <h1>false tempalte</h1>
           <Footer />
         </>
       )}

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <MouseStalker />
-      <Template templateNumber={false}>
+      <Template templateNumber={true}>
         <h1>main content</h1>
       </Template>
     </main>
