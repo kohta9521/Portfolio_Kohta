@@ -55,3 +55,28 @@
 .footerLink {
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 30px 10px 30px 10px;
+  }
+  .topBox {
+    display: block;
+  }
+  .logoBox {
+    margin-bottom: 70px;
+  }
+  .menuBox ul li {
+    font-size: 13px;
+  }
+  .snsBox ul li {
+    font-size: 13px;
+  }
+  .basicBox {
+    display: none;
+    margin-bottom: 10px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+}

@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.contaienr}>
+      <div className={styles.container}>
         <div className={styles.topBox}>
           <div className={styles.logoBox}>
             <Logo />
