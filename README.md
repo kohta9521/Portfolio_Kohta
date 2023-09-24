@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![スクリーンショット 2023-09-24 13 08 20](https://github.com/kohta9521/Portfolio_Kohta/assets/100065508/48422428-74cb-4767-8f6b-d0cb9de505d6)
+![スクリーンショット 2023-09-24 13 10 58](https://github.com/kohta9521/Portfolio_Kohta/assets/100065508/de9d32c8-440c-4263-a843-c33a935e920a)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
