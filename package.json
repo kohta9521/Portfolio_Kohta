@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --check ./src",
@@ -20,6 +20,7 @@
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
     "react-spring": "^9.7.2",
     "typescript": "5.2.2"
   },
