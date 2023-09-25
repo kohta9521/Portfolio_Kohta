@@ -14,6 +14,8 @@ import DropTitle from './DropTitle'
 import ProjectTags from './ProjectTags'
 import Link from 'next/link'
 
+// ガチで頭おかしい記述だけど許して
+
 const DropDown = () => {
   const [isOpen1, setIsOpen1] = useState(false)
   const [isOpen2, setIsOpen2] = useState(false)
@@ -61,7 +63,7 @@ const DropDown = () => {
         className={`${styles.dropBox} ${styles.box1}`}
         onClick={() => setIsOpen2(isOpen2 ? false : true)}
       >
-        <DropTitle id={0} text="WORKS" />
+        <DropTitle id={0} text="EVENTS" />
         <ImArrowDown2 className={styles.arrow} />
       </a>
       {isOpen2 && (
@@ -80,7 +82,7 @@ const DropDown = () => {
         className={`${styles.dropBox} ${styles.box1}`}
         onClick={() => setIsOpen3(isOpen3 ? false : true)}
       >
-        <DropTitle id={0} text="WORKS" />
+        <DropTitle id={0} text="ARTICLES" />
         <ImArrowDown2 className={styles.arrow} />
       </a>
       {isOpen3 && (
@@ -99,7 +101,7 @@ const DropDown = () => {
         className={`${styles.dropBox} ${styles.box1}`}
         onClick={() => setIsOpen4(isOpen4 ? false : true)}
       >
-        <DropTitle id={0} text="WORKS" />
+        <DropTitle id={0} text="PRODUCTS" />
         <ImArrowDown2 className={styles.arrow} />
       </a>
       {isOpen4 && (

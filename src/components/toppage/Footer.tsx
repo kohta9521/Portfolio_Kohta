@@ -92,7 +92,7 @@ const Footer = () => {
             <p>© Kohta Co. 2023</p>
           </div>
           <div className={styles.plivacyBox}>
-            <Link href="/" className={styles.footerLink}>
+            <Link href="/plivacypolicy" className={styles.footerLink}>
               Plivacy Policy
             </Link>
           </div>
