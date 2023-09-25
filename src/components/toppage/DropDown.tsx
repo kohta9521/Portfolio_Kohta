@@ -45,7 +45,7 @@ const DropDown = () => {
         onClick={() => setIsOpen1(isOpen1 ? false : true)}
       >
         <DropTitle id={0} text="WORKS" />
-        <ImArrowDown2 className={styles.arrow} />
+        <ImArrowDownRight2 className={styles.arrow} />
       </a>
       {isOpen1 && (
         <div

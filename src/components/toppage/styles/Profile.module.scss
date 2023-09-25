@@ -1,6 +1,6 @@
 .profile {
   width: 100%;
-  height: 2000px;
+  height: 1700px;
   padding: 50px 100px 20px 100px;
   box-sizing: border-box;
   border: 1px solid white;
@@ -19,6 +19,7 @@
   width: 80%;
   height: 600px;
   margin: 0 auto;
+  margin-bottom: 80px;
   padding: 100px 0 30px 0;
   box-sizing: border-box;
   display: flex;
@@ -45,7 +46,8 @@
 }
 .maintext {
   display: block;
-  font-size: 17px;
+  font-size: 18px;
+  line-height: 26px;
   text-align: right;
   margin-bottom: 70px;
 }
@@ -60,6 +62,36 @@
   display: block;
   width: 40px;
   height: 40px;
+}
+
+// skill ===========
+.skillBox {
+  width: 80%;
+  margin: 0 auto;
+}
+.skillTitle {
+  display: block;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+.skilltext {
+  display: block;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+.langBox {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+}
+.langFlexBox {
+  width: 30%;
+  height: 500px;
+  border: 1px solid white;
 }
 
 @media screen and (max-width: 1280px) {
