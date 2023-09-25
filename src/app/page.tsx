@@ -7,6 +7,7 @@ import Project from '@/components/toppage/Project'
 // css import
 import styles from '../styles/page.module.css'
 import DropDown from '@/components/toppage/DropDown'
+import Profile from '@/components/toppage/Profile'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Project />
         <DropDown />
+        <Profile />
       </Template>
     </main>
   )
