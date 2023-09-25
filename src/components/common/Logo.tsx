@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 
 // css import
 import styles from './styles/Logo.module.scss'
@@ -27,13 +26,9 @@ const Logo = ({ size = 'medium' }: Props) => {
   }
   return (
     <Link href="/" prefetch={false} className={styles.link}>
-      <Image
+      <img
         src="/images/logo.png"
-        width={imageSize.width}
-        height={imageSize.height}
         alt="Picture of the author"
-        quality={100}
-        priority={true}
         className={styles.imgItem}
       />
     </Link>

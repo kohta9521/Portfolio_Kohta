@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 
 // css import
@@ -19,12 +18,10 @@ type Props = {
 const ProjectsCard = ({ id, imgLink, cardTitle, projectsTags }: Props) => {
   return (
     <Link href={`/projects/${id}`} className={styles.card} key={id}>
-      <Image
+      <img
         src={imgLink}
         width={300}
         height={280}
-        quality={100}
-        priority={true}
         alt="recentProjectsCardImg"
         className={styles.cardImg}
       />

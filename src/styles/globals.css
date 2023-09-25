@@ -8,3 +8,7 @@
   color: white;
   font-family: 'Orbitron', sans-serif;
 }
+
+li {
+  list-style: none;
+}

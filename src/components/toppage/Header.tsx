@@ -17,12 +17,7 @@ const Header = () => {
             url="#projects"
             size="medium"
           />
-          <HeaderListButton
-            id={2}
-            text="PROFILE"
-            url="#profile"
-            size="medium"
-          />
+          <HeaderListButton id={2} text="WORKS" url="#profile" size="medium" />
           <HeaderListButton
             id={3}
             text="PORTFOLIO"
