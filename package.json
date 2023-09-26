@@ -22,9 +22,12 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
     "react-spring": "^9.7.2",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^6.0.8",
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@types/react-transition-group": "^4.4.6",
     "prettier": "^3.0.3",
     "sass": "^1.68.0"
   }

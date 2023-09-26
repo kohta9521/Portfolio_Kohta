@@ -49,7 +49,7 @@ const DropDown = () => {
       </a>
       {isOpen1 && (
         <div
-          className={styles.tagDrop}
+          className={`${styles.tagDrop} ${isOpen1 ? 'active' : ''}`}
           onBlur={() => setTimeout(() => setIsOpen1(false), 100)}
           ref={menuRef}
         >
