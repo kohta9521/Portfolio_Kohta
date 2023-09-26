@@ -92,6 +92,7 @@ const Profile = () => {
             I am also learning video editing, although I might not say I am do
             ing it as a job. I mainly use DaVinci Resolve 18 software and Ado be
             After Effects. I shoot and edit videos for my clubs and events.
+            I also post videos on YouTube, just to kill time. Please take a look.
           </p>
           <div className={styles.langBox}></div>
           <p className={styles.subSkillTitle}>- DJ -</p>
