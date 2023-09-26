@@ -11,11 +11,9 @@ const Project = () => {
     <div className={styles.project} id="projects">
       <div className={styles.container}>
         <p className={styles.subTitle}>
-          ご覧いただきありがとうございます。
-          <br />
-          主にフロントエンドを中心にWebサービスを日々企画制作しています。
-          <br />
-          WEBサービス・WEBページの企画、デザイン、コーディングまで手掛けています。
+          Thank you for visiting.<br />
+          I plan and produce web services on a daily basis, mainly focusing on the front end.<br />
+          We handle planning, design, and coding of web services and web pages.
           <br />
         </p>
         <SectionTitle key={1} id="project" text="PROJECTS" />
