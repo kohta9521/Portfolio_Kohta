@@ -33,6 +33,15 @@
   height: 50px;
   margin-top: 40px;
   display: flex;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    opacity 0.3s ease,
+    max-height 0.3s ease;
+}
+.tagDrop .active {
+  opacity: 1;
+  max-height: 50px; /* ドロップダウンメニューの最大の高さに設定してください */
 }
 // ==========
 .arrow {

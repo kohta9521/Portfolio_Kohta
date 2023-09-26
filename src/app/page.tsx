@@ -8,6 +8,7 @@ import Project from '@/components/toppage/Project'
 import styles from '../styles/page.module.css'
 import DropDown from '@/components/toppage/DropDown'
 import Profile from '@/components/toppage/Profile'
+import Blog from '@/components/toppage/Blog'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Project />
         <DropDown />
         <Profile />
+        <Blog />
       </Template>
     </main>
   )

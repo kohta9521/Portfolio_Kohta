@@ -77,6 +77,7 @@ const Profile = () => {
         {/* skill set area */}
         <div className={styles.skillBox}>
           <h2 className={styles.skillTitle}>My Skills</h2>
+          <p className={styles.subSkillTitle}>- Programming -</p>
           <p className={styles.skilltext}>
             The following is a list of programming languages and tools that I
             study and use on a daily basis. I have also set up four levels for
@@ -85,200 +86,21 @@ const Profile = () => {
             practice (level 3), and I am confident in the language (level 4).
             The main area of study is front-end software.
           </p>
-          <div className={styles.langBox}>
-            <div className={styles.langFlexBox}>
-              <ul className={styles.flexBoxUl}>
-                <li>
-                  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
-                      alt="HTML5"
-                      height="50"
-                    />
-                  </a>
-                  HTML5
-                </li>
-                <li>
-                  <a href="https://www.w3schools.com/css/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
-                      alt="CSS3"
-                      height="50"
-                    />
-                  </a>
-                  CSS3{' '}
-                </li>
-                <li>
-                  <a href="https://sass-lang.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/sass-original.svg"
-                      alt="Sass"
-                      height="50"
-                    />
-                  </a>
-                  Sass{' '}
-                </li>
-                <li>
-                  <a href="https://www.tailwindcss.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg"
-                      alt="Tailwind CSS"
-                      height="50"
-                    />
-                  </a>
-                  TailwindCss{' '}
-                </li>
-                <li>
-                  <a href="https://www.javascript.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
-                      alt="JavaScript"
-                      height="50"
-                    />
-                  </a>
-                  JavaScript{' '}
-                </li>
-                <li>
-                  <a href="https://www.typescriptlang.org/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
-                      alt="TypeScript"
-                      height="50"
-                    />
-                  </a>
-                  TypeScript{' '}
-                </li>
-              </ul>
-            </div>
-            <div className={styles.langFlexBox}>
-              <ul>
-                <li>
-                  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
-                      alt="HTML5"
-                      height="50"
-                    />
-                  </a>
-                  HTML5
-                </li>
-                <li>
-                  <a href="https://www.w3schools.com/css/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
-                      alt="CSS3"
-                      height="50"
-                    />
-                  </a>
-                  CSS3{' '}
-                </li>
-                <li>
-                  <a href="https://sass-lang.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/sass-original.svg"
-                      alt="Sass"
-                      height="50"
-                    />
-                  </a>
-                  Sass{' '}
-                </li>
-                <li>
-                  <a href="https://www.tailwindcss.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg"
-                      alt="Tailwind CSS"
-                      height="50"
-                    />
-                  </a>
-                  TailwindCss{' '}
-                </li>
-                <li>
-                  <a href="https://www.javascript.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
-                      alt="JavaScript"
-                      height="50"
-                    />
-                  </a>
-                  JavaScript{' '}
-                </li>
-                <li>
-                  <a href="https://www.typescriptlang.org/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
-                      alt="TypeScript"
-                      height="50"
-                    />
-                  </a>
-                  TypeScript{' '}
-                </li>
-              </ul>
-            </div>
-            <div className={styles.langFlexBox}>
-              <ul>
-                <li>
-                  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
-                      alt="HTML5"
-                      height="50"
-                    />
-                  </a>
-                  HTML5
-                </li>
-                <li>
-                  <a href="https://www.w3schools.com/css/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
-                      alt="CSS3"
-                      height="50"
-                    />
-                  </a>
-                  CSS3{' '}
-                </li>
-                <li>
-                  <a href="https://sass-lang.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/sass-original.svg"
-                      alt="Sass"
-                      height="50"
-                    />
-                  </a>
-                  Sass{' '}
-                </li>
-                <li>
-                  <a href="https://www.tailwindcss.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg"
-                      alt="Tailwind CSS"
-                      height="50"
-                    />
-                  </a>
-                  TailwindCss{' '}
-                </li>
-                <li>
-                  <a href="https://www.javascript.com/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
-                      alt="JavaScript"
-                      height="50"
-                    />
-                  </a>
-                  JavaScript{' '}
-                </li>
-                <li>
-                  <a href="https://www.typescriptlang.org/" target="_blank">
-                    <img
-                      src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
-                      alt="TypeScript"
-                      height="50"
-                    />
-                  </a>
-                  TypeScript{' '}
-                </li>
-              </ul>
-            </div>
-          </div>
+          <div className={styles.langBox}></div>
+          <p className={styles.subSkillTitle}>- Video Editing -</p>
+          <p className={styles.skilltext}>
+            I am also learning video editing, although I might not say I am do
+            ing it as a job. I mainly use DaVinci Resolve 18 software and Ado be
+            After Effects. I shoot and edit videos for my clubs and events.
+          </p>
+          <div className={styles.langBox}></div>
+          <p className={styles.subSkillTitle}>- DJ -</p>
+          <p className={styles.skilltext}>
+            I mainly DJ House Music a couple of times a month. Most of my e
+            vents are held in Shibuya, Ebisu, and Sangenjaya. I also have my o
+            wn equipment, so I often play at home parties.
+          </p>
+          <div className={styles.langBox}></div>
         </div>
       </div>
     </div>
