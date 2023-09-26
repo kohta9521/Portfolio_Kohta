@@ -1,15 +1,14 @@
+'use client'
 import React from 'react'
 
 // css import
 import styles from './styles/Modal.module.scss'
-
 
 // // props tpe
 // type Props = {
 //   show: boolean;
 //   setShow: any
 // }
-
 
 const Modal = (props: { show: boolean; setShow: any }) => {
   const closeModal = () => {
@@ -29,4 +28,4 @@ const Modal = (props: { show: boolean; setShow: any }) => {
   }
 }
 
-export default Modal;
+export default Modal
