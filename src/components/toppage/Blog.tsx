@@ -1,60 +1,54 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 
 // css import
 import styles from './styles/Blog.module.scss'
-import ModalCard from '../common/ModalCard'
+// import ModalCard from '../common/ModalCard'
+import NewModal from './NewModal'
+import ArticleCard from './ArticleCard'
+import ArticleCardModal from './ArticleCardModal'
 // import Modal from './Modal'
 
 const Blog = () => {
-  // const [show, setShow] = useState(false)
-
-  // const openModal = () => {
-  //   setShow(true)
-  // }
+  const [show, setShow] = useState(false)
+  const openModal = () => {
+    setShow(true)
+  }
 
   return (
     <>
       <div className={styles.blog}>
         <div className={styles.container}>
-          <h1>===================================</h1>
-          this areas modal is new modal child components
-          <ModalCard
+          {/* !toppageに表示する専用のコンポーネント */}
+          <ArticleCard
+            useStateNumber={1}
             key={1}
-            imgLink="/images/sampleImg1.png"
-            articleTitle="New Company Site!"
-            articleDate="2023-09-26"
+            imgLInk="/images/sampleImg1.png"
+            articleTitle="Sample Article"
+            articleDate="2023-09-27"
             tagsNumber={1}
           />
-          <h1>===================================</h1>
-          <h1 className={styles.blogTitle}>BLOG</h1>
-          {/* <div>
-          <p>modal window sample</p>
+          {/* ovelayをかけるコンポーネント　普通でいうmodal components */}
+          {/* <ArticleCardModal
+            useStateNumber={1}
+            key={1}
+            imgLInk="/images/sampleImg1.png"
+            articleTitle="Sample Article"
+            articleDate="2023-09-27"
+            tagsNumber={1}
+          /> */}
+          <h1>================</h1>
+          <h1>これより下は論理実装</h1>
           <button onClick={openModal}>Click</button>
-          <Modal show={show} setShow={setShow} />
-        </div> */}
+          <button onClick={openModal}>Click</button>
+          <button onClick={openModal}>Click</button>
+          <NewModal show={show} setShow={setShow} />
+          <NewModal show={show} setShow={setShow} />
+          <NewModal show={show} setShow={setShow} />
         </div>
       </div>
     </>
   )
 }
-
-// function Modal(props: { show: boolean; setShow: any }) {
-//   const closeModal = () => {
-//     props.setShow(false)
-//   }
-//   if (props.show) {
-//     return (
-//       <div id="overlay" className={styles.overlay}>
-//         <div id="content" className={styles.content}>
-//           <p>this is modal window</p>
-//           <button onClick={closeModal}>Close</button>
-//         </div>
-//       </div>
-//     )
-//   } else {
-//     return null
-//   }
-// }
 
 export default Blog
