@@ -19,6 +19,18 @@ const NewBlog = () => {
             title="npxとnpmの違い"
             date="2023/10/04"
           />
+          <NewBlogCard
+            id={0}
+            imgLink="./images/sampleImg1.png"
+            title="npxとnpmの違い"
+            date="2023/10/04"
+          />
+          <NewBlogCard
+            id={0}
+            imgLink="./images/sampleImg1.png"
+            title="npxとnpmの違い"
+            date="2023/10/04"
+          />
         </div>
       </div>
     </div>

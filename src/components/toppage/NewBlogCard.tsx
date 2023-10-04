@@ -21,7 +21,7 @@ const NewBlogCard = ({ id, imgLink, title, date }: Props) => {
   }
   return (
     <a className={styles.blogCard} onClick={openModal}>
-      <img width={'300px'} src={imgLink} alt="" />
+      <img className={styles.img} src={imgLink} alt="" />
       <h2 className={styles.blogCardTitle}>{title}</h2>
       <p className={styles.blogCardDate}>{date}</p>
       {/* <p className={styles.blogCardtext}>
