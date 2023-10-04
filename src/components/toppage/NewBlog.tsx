@@ -4,12 +4,22 @@ import React from 'react'
 import styles from './styles/NewBlog.module.scss'
 
 // components import
+import SectionTitle from '../common/SectionTitle'
+import NewBlogCard from './NewBlogCard'
 
 const NewBlog = () => {
   return (
     <div className={styles.newBlog}>
       <div className={styles.container}>
-        new blog section (new nodal animation child components)
+        <SectionTitle key={3} id="#article" text="ARTICLES" />
+        <div className={styles.articlesFlexArea}>
+          <NewBlogCard
+            id={0}
+            imgLink="./images/sampleImg1.png"
+            title="npxとnpmの違い"
+            date="2023/10/04"
+          />
+        </div>
       </div>
     </div>
   )
