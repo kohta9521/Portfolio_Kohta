@@ -1,0 +1,34 @@
+.blogCard {
+  display: block;
+  width: 28%;
+  min-height: 550px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  border: 1px solid white;
+}
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blogCardTitle {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+  line-height: 60px;
+}
+.blogCardDate {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.blogCardButton {
+  width: 200px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}

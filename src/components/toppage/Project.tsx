@@ -11,8 +11,11 @@ const Project = () => {
     <div className={styles.project} id="projects">
       <div className={styles.container}>
         <p className={styles.subTitle}>
-          Thank you for visiting.<br />
-          I plan and produce web services on a daily basis, mainly focusing on the front end.<br />
+          Thank you for visiting.
+          <br />
+          I plan and produce web services on a daily basis, mainly focusing on
+          the front end.
+          <br />
           We handle planning, design, and coding of web services and web pages.
           <br />
         </p>
