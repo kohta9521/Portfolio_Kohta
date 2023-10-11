@@ -19,11 +19,6 @@ export default function Home() {
       <Template templateNumber={false}>
         <Hero />
         <Project />
-        <DropDown />
-        <Profile />
-        <NewBlog />
-        <Blog />
-        <Blog2 />
       </Template>
     </main>
   )
