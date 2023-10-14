@@ -1,0 +1,108 @@
+// size
+.btn-small {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+.btn-medium {
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.btn-large {
+    font-size: 20px;
+    padding: 8px 16px;
+}
+.btn-xlarge {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+.btn-xxlarge {
+    font-size: 28px;
+    padding: 12px 24px;
+}
+
+// shape
+.btn-square { border-radius: 0;}
+.btn-rounded { border-radius: 4px; }
+.btn-pill { border-radius: 9999px; }
+
+// color
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    &:hover { background-color: #0069d9; }
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    &:hover { background-color: #5a6268; }
+}
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    &:hover { background-color: #218838; }
+}
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+    &:hover { background-color: #e0a800; }
+}
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    &:hover { background-color: #c82333; }
+}
+
+// responsive break point
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+
+// mobile device
+@media (max-width: $breakpoint-mobile) {
+    .btn-small {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+    .btn-medium {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .btn-large {
+        font-size: 18px;
+        padding: 7px 14px;
+    }
+    .btn-xlarge {
+        font-size: 22px;
+        padding: 9px 18px;
+    }
+    .btn-xxlarge {
+        font-size: 26px;
+        padding: 11px 22px;
+    }
+}
+
+// tablet device
+@media (min-width: ($breakpoint-mobile + 1)) and (max-width: $breakpoint-tablet) {
+    .btn-small {
+        font-size: 11px;
+        padding: 3.5px 7px;
+    }
+    .btn-medium {
+        font-size: 15px;
+        padding: 5.5px 11px;
+    }
+    .btn-large {
+        font-size: 19px;
+        padding: 7.5px 15px;
+    }
+    .btn-xlarge {
+        font-size: 23px;
+        padding: 9.5px 19px;
+    }
+    .btn-xxlarge {
+        font-size: 27px;
+        padding: 11.5px 23px;
+    }
+}
+
+// desktop device
+@media (min-width: ($breakpoint-tablet + 1)) {}
