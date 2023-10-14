@@ -1,0 +1,40 @@
+.logo {
+    display: block;
+    cursor: pointer;
+    max-height: 80px;
+}
+
+// size
+.small {
+    height: 30px;
+}
+.medium {
+    height: 50px;
+}
+.large {
+    height: 70px;
+}
+.xlarge {
+    height: 90px;
+}
+.xxlarge {
+    height: 110px;
+}
+
+// responsive break point
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+
+// mobile device
+@media (max-width: $breakpoint-mobile) {
+
+}
+
+// tablet device
+@media (min-width: ($breakpoint-mobile + 1)) and (max-width: $breakpoint-tablet) {
+
+}
+
+// desktop device
+@media (min-width: ($breakpoint-tablet + 1)) {
+}
