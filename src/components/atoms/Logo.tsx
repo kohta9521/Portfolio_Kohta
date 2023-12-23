@@ -21,11 +21,11 @@ const Logo = ({
 }: LogoProps
 ) => {
     return (
-        <Link key={id} href={link}>
+        <Link className={`${styles.logo} ${styles[size]}`} key={id} href={link}>
             <Image
                 src={"/images/logo.png"}
-                width={120}
-                height={50}
+                width={170}
+                height={60}
                 alt="headerのロゴ画像"
                 quality={100}
             />
