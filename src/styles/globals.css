@@ -1,14 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
+:root {
+  /* color */
+  --main-color: #ff0211;
+  --main-red-color: #ff0211;
+  --main-black-color:  #000000;
+  --main-white-color: #ffffff;
+  --main-gray-color: #373737;
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-color: black;
-  color: white;
-  font-family: 'Orbitron', sans-serif;
+  /* fontSize */
+  --small-font: 12px;
+  --medium-font: 16px;
+  --large-font: 22px;
 }
 
-li {
-  list-style: none;
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-black-color);
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
