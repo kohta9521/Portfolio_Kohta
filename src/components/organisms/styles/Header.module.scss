@@ -1,127 +1,22 @@
-// styles/Header.module.scss
 .header {
-    background: white;
-    padding: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    img {
-      height: 40px;
-    }
-  }
-  
-  .navLinks {
-    display: flex;
-    gap: 20px;
-    transition: all 0.3s ease;
-  
-    @media (max-width: 1024px) {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #f9f9f9;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 10px 20px;
-    }
-  }
-  
-  .show {
-    display: flex;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  
-    &:hover .dropdownContent {
-      display: block;
-    }
-  }
-  
-  .dropbtn {
-    background-color: white;
-    color: gray;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  
-    &:hover {
-      color: #000;
-    }
-  }
-  
-  .dropdownContent {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  
-    a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-  
-      &:hover {
-        background-color: #ddd;
-      }
-    }
-  }
-  
-  .login {
-    a {
-      color: gray;
-      transition: all 0.3s ease;
-  
-      &:hover {
-        color: #000;
-      }
-    }
-  }
-  
-  .mobileMenuIcon {
-    display: none;
-    cursor: pointer;
-  
-    @media (max-width: 1024px) {
-      display: block;
-    }
-  
-    img {
-      height: 30px;
-    }
-  }
-  
+    width: 100%;
+    height: 100px;
+    .container {
+        width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
+        .logoArea {
 
+        }
+        .menuArea {
 
-  .navLinks {
-    // ... 他のスタイルは変更なし ...
-  
-    @media (max-width: 1024px) {
-      display: none; // デフォルトでは非表示
-      flex-direction: column;
-      // ... 他のスタイル設定 ...
+        }
+        .contactArea {
+
+        }
     }
-  }
-  
-  .show {
-    @media (max-width: 1024px) {
-      display: flex; // show クラスがある場合は表示
-    }
-  }
-  
+
+}
+
+@media screen and (max-width: 1024px) {
+}

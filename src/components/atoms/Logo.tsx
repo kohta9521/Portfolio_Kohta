@@ -28,6 +28,7 @@ const Logo = ({
                 height={60}
                 alt="headerのロゴ画像"
                 quality={100}
+                className={styles.logoImage}
             />
         </Link>
     )
