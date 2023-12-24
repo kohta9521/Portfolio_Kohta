@@ -1,16 +1,20 @@
 .logo {
-
+    display: block;
+    width: 100px;
+}
+.logoImage {
+    object-fit: cover;
 }
 
-// props
+/* props css */
 .small {
-
+    width: 100px;
 }
 .medium {
-
+    width: 150px;
 }
 .large {
-
+    width: 200px;
 }
 
 
