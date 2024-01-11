@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kohta9521/Portfolio_Kohta">
-    <img width="300" alt="スクリーンショット 2023-11-15 10 19 50" src="https://github.com/kohta9521/kokogohan/assets/100065508/0fdfbcdc-ecde-4cc3-99ba-cb8fd63c0337">
+    <!-- <img width="300" alt="スクリーンショット 2023-11-15 10 19 50" src="https://github.com/kohta9521/kokogohan/assets/100065508/0fdfbcdc-ecde-4cc3-99ba-cb8fd63c0337"> -->
 
   </a>
 
@@ -56,7 +56,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-
 
 #### Frontend
 
@@ -167,6 +166,5 @@ Your Name - [Kohta_piano](https://twitter.com/kohta_piano) - kohta95engineer@gma
 Project Link: [Kohta Portfolio Site](https://kokogohan-pn6107g7s-kohta9521s-projects.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
