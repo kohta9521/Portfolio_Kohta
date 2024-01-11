@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -9,11 +8,10 @@
 
   </a>
 
-  <h1 align="center">ここごはん</h3>
+  <h1 align="center">Kohta Portfolio Site</h3>
 
   <p align="center">
-    we are creating a new type of map with the members of the communities, companies, and organizations around you.
-    Unlike conventional maps where you only search for information, why don't you participate as a creator of your own map?
+    2024年 Kohtaのポートフォリオサイト。Next.js ✖️ Rustで作成している。2024年はフロントだけではなくバックエンドにも力を入れていきたいためRustを使用。QiitaやZennといったブログなどの最新記事を取得できる。デザインも海外を参考に先進的なものをFigmaで作成している。
     <br />
     <br />
     <br />
@@ -24,8 +22,6 @@
     <a href="https://github.com/kohta9521/Portfolio_Kohta/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -53,27 +49,14 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
-
-![tech](https://github.com/kohta9521/kokogohan/assets/100065508/908a4326-740e-41b4-84f7-e897f7865982)
-
-Why don't you find a little bit deep dining experience in your neighborhood?
-
-The concept of this service is not to use maps only for obtaining existing information, but to create your own maps.
-A recommended restaurant you like to go to. A hole-in-the-wall restaurant for lunch. The map will evolve as the company or organization you belong to grows. In other words, no two maps are the same.
-
-Why don't you join this service and become one of the map makers?
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-This site is currently built using the following technology stacks Reference.
 
 #### Frontend
 
@@ -87,19 +70,25 @@ This site is currently built using the following technology stacks Reference.
 - ESLint (^8)
 - zod (^3.22.4)
 
-- React-Hook-Form (^7.48.2)
-- @splinetool/react-spline (^2.2.6)
-- @react-google-maps/api (^2.19.2)
-
 #### Backend
-- Node.js ()
-- Express
+
+- Rust
+- Actix Web
+- Diesel
+- Tera
+- Clap
+- Thirtyfour
+
+#### Others
+
+- Docker
+- Heroku
+- GitHub Actions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -108,7 +97,8 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -128,14 +118,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Enter your API in `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -144,9 +133,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -162,18 +150,16 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Your Name - [Kohta_piano](https://twitter.com/kohta_piano) - kohta95engineer@gmail.com
@@ -183,20 +169,4 @@ Project Link: [Kohta Portfolio Site](https://kokogohan-pn6107g7s-kohta9521s-proj
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
