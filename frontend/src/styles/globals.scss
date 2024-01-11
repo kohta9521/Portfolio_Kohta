@@ -1,20 +1,22 @@
 :root {
     // 最大幅の定義
     --max-width: 1100px;
+
     // フォントの定義
     --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
         'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
         'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-    // 色の定義
-    --primary-color: #0055aa;
-    --secondary-color: #ff5500;
-    --background-color: #f4f4f4;
-    --text-color: #333;
 
     // フォントサイズの定義
     --font-size-normal: 16px;
     --font-size-large: 24px;
     --font-size-small: 12px;
+
+    // 色の定義
+    --primary-color: #0055aa;
+    --secondary-color: #ff5500;
+    --background-color: #f4f4f4;
+    --text-color: #333;
 
     // その他の変数
     --border-radius: 4px;
