@@ -1,0 +1,11 @@
+# ビルドされた実行可能ファイルやライブラリ
+/target/
+
+# 一時ファイル
+**/*.rs.bk
+
+# IDE固有の設定（例：Visual Studio Code）
+**/.vscode/
+
+# Rustフォーマッターの設定ファイル
+**/rustfmt.toml
