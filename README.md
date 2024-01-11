@@ -60,7 +60,6 @@
 #### Frontend
 
 - Next.js (14.0.2)
-
 - React (^18)
 - TypeScript (^5)
 - Sass (^1.69.5)
