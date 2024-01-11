@@ -1,7 +1,6 @@
 import React from 'react';
 
 // scss import
-import styles from '../styles/Page.module.scss';
 
 // components import
 
