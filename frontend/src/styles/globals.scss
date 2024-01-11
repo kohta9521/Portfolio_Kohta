@@ -1,13 +1,35 @@
 :root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+    // 最大幅の定義
+    --max-width: 1100px;
+    // フォントの定義
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+        'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    // 色の定義
+    --primary-color: #0055aa;
+    --secondary-color: #ff5500;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+
+    // フォントサイズの定義
+    --font-size-normal: 16px;
+    --font-size-large: 24px;
+    --font-size-small: 12px;
+
+    // その他の変数
+    --border-radius: 4px;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-mono);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: var(--font-size-normal);
+    line-height: 1.6;
 }
