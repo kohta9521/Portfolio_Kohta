@@ -1,15 +1,26 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 
 // scss import
+import styles from '../styles/Page.module.scss';
+
+// ant design
+import { Layout } from 'antd';
 
 // components import
 import TextDisplay from '@/components/atoms/TextDisplay';
+import Logo from '@/components/atoms/Logo';
+import MenuList from '@/components/atoms/MenuList';
+
+const { Header, Sider } = Layout;
 
 export default function Home() {
     return (
-        <div>
-            <h1>hello rust nextjs project!!</h1>
-            <TextDisplay key={1} text={'hello world'} />
-        </div>
+        <Layout>
+            <Sider className={styles.sidebar}>
+                <Logo />
+                <MenuList />
+            </Sider>
+        </Layout>
     );
 }
