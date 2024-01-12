@@ -64,6 +64,7 @@
 - TypeScript (^5)
 - Sass (^1.69.5)
 - Storybook (^7.5.3)
+- jest
 - Prettier (3.1.0)
 - ESLint (^8)
 - zod (^3.22.4)

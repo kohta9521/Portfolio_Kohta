@@ -1,5 +1,5 @@
 module.exports = {
-    roots: ['<rootDir>/frontend'], // テストのルートディレクトリ
+    roots: ['<rootDir>/src'], // テストのルートディレクトリ
     transform: {
         '^.+\\.tsx?$': 'ts-jest', // TypeScriptファイルの変換
     },

@@ -12,11 +12,16 @@
         "build-storybook": "storybook build"
     },
     "dependencies": {
+        "antd": "^5.12.8",
         "next": "14.0.4",
         "react": "^18",
-        "react-dom": "^18"
+        "react-dom": "^18",
+        "react-icons": "^5.0.1"
     },
     "devDependencies": {
+        "@babel/preset-env": "^7.23.8",
+        "@babel/preset-react": "^7.23.3",
+        "@babel/preset-typescript": "^7.23.3",
         "@storybook/addon-essentials": "^7.6.7",
         "@storybook/addon-interactions": "^7.6.7",
         "@storybook/addon-links": "^7.6.7",
@@ -25,10 +30,14 @@
         "@storybook/nextjs": "^7.6.7",
         "@storybook/react": "^7.6.7",
         "@storybook/test": "^7.6.7",
+        "@testing-library/jest-dom": "^6.2.0",
+        "@testing-library/react": "^14.1.2",
         "@types/jest": "^29.5.11",
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",
+        "@types/testing-library__jest-dom": "^6.0.0",
+        "@types/testing-library__react": "^10.2.0",
         "@typescript-eslint/eslint-plugin": "^6.18.1",
         "eslint": "^8.56.0",
         "eslint-config-next": "14.0.4",
