@@ -9,7 +9,7 @@ import { HiOutlineSun, HiOutlineMoon } from 'react-icons/hi';
 // antd import
 import { Button } from 'antd';
 
-const ToggleThemeButton = ({ darkTheme, toggleTheme }) => {
+const ToggleThemeButton = ({ darkTheme, toggleTheme }: any) => {
     return (
         <div className={styles.toggle_theme_button}>
             <Button onClick={toggleTheme}>

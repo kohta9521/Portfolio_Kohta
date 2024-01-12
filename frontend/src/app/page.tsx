@@ -11,10 +11,9 @@ import { Button, Layout, theme } from 'antd';
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
 
 // components import
-import TextDisplay from '@/components/atoms/TextDisplay';
-import Logo from '@/components/atoms/Logo';
-import MenuList from '@/components/atoms/MenuList';
-import ToggleThemeButton from '@/components/atoms/ToggleTemeButton';
+import Logo from '../components/atoms/Logo';
+import MenuList from '../components/atoms/MenuList';
+import ToggleThemeButton from '../components/atoms/ToggleTemeButton';
 
 const { Header, Sider } = Layout;
 
@@ -44,7 +43,13 @@ export default function Home() {
                 />
             </Sider>
             <Layout>
-                <Header style={{ padding: 0, background: colorBgContainer }}>
+                <Header
+                    style={{
+                        display: 'flex',
+                        padding: 0,
+                        background: colorBgContainer,
+                    }}
+                >
                     <Button
                         type='text'
                         className={styles.toggle}
@@ -57,6 +62,7 @@ export default function Home() {
                             )
                         }
                     />
+                    {/* <TextDisplay text='Home' /> */}
                 </Header>
             </Layout>
         </Layout>

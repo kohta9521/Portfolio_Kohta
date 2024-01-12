@@ -14,7 +14,7 @@ import {
     BarsOutlined,
 } from '@ant-design/icons';
 
-const MenuList = ({ darkTeme }) => {
+const MenuList = ({ darkTeme }: any) => {
     return (
         <Menu
             theme={darkTeme ? 'dark' : 'light'}
