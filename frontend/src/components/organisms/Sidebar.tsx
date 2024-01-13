@@ -1,11 +1,12 @@
 import React from 'react';
 import { Layout } from 'antd';
 
+// scss import
+import styles from './styles/Sidebar.module.scss';
+
 // components import
 import Logo from '../atoms/Logo';
-import styles from './styles/Sidebar.module.scss';
 import MenuList from '../atoms/MenuList';
-import ToggleThemeButton from '../atoms/ToggleTemeButton';
 
 type SidebarProps = {
     collapsed: boolean;
