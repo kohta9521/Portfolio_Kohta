@@ -1,12 +1,11 @@
 'use client';
-import React, { useEffect } from 'react';
-
-// aos imports
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 
 // scss import
 import styles from './styles/SectionTitle.module.scss';
+
+// custom hook import
+import useAOS from '../../hooks/useAOS';
 
 // props type
 export type SectionTitleProps = {
@@ -16,12 +15,7 @@ export type SectionTitleProps = {
 };
 
 const SectionTitle = ({ id, title, subtitle }: SectionTitleProps) => {
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, // アニメーションの持続時間
-            once: true, // アニメーションを一度だけ実行する
-        });
-    }, []);
+    useAOS();
     return (
         <div className={styles.titleBox} key={id} data-aos='fade-up'>
             <h1 className={styles.titleText}>{title}</h1>
