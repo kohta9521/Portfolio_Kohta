@@ -22,18 +22,18 @@ const MenuList = ({ darkTeme }: any) => {
             className={styles.menu_bar}
         >
             <Menu.Item key='home' icon={<HomeOutlined />}>
-                Home
+                ホーム
             </Menu.Item>
             <Menu.Item key='activity' icon={<AppstoreOutlined />}>
-                Activity
+                使用技術
             </Menu.Item>
             {/* submenu */}
-            <Menu.SubMenu key='tasks' icon={<BarsOutlined />} title='tasks'>
-                <Menu.Item key='task-1'>Task 1</Menu.Item>
-                <Menu.Item key='task-2'>Task 2</Menu.Item>
+            <Menu.SubMenu key='tasks' icon={<BarsOutlined />} title='開発実績'>
+                <Menu.Item key='task-1'>バックエンド</Menu.Item>
+                <Menu.Item key='task-2'>フロントエンド</Menu.Item>
                 <Menu.SubMenu key='subtasks' title='Subtasks'>
-                    <Menu.Item key='subtask-1'>Subtask 1</Menu.Item>
-                    <Menu.Item key='subtask-1'>Subtask 2</Menu.Item>
+                    <Menu.Item key='subtask-1'>HTML/CSS</Menu.Item>
+                    <Menu.Item key='subtask-1'>React/Next.js</Menu.Item>
                 </Menu.SubMenu>
             </Menu.SubMenu>
             <Menu.Item key='progress' icon={<AreaChartOutlined />}>
