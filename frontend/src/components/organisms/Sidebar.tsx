@@ -29,10 +29,6 @@ const Sidebar: React.FC<SidebarProps> = ({
         >
             <Logo />
             <MenuList darkTeme={darkTheme} />
-            {/* <ToggleThemeButton
-                darkTheme={darkTheme}
-                toggleTheme={toggleTheme}
-            /> */}
         </Layout.Sider>
     );
 };
