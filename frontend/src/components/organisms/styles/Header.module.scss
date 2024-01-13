@@ -1,7 +1,21 @@
 .header {
     position: relative;
+    display: flex;
     top: 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0;
-    padding-left: 300px;
+    padding-right: 50px;
+}
+.toggle {
+    margin-left: 200px;
+    color: white;
+    &:hover {
+        color: rgb(157, 157, 157);
+        cursor: pointer;
+    }
+}
+
+.contact_button {
 }

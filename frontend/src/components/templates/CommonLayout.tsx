@@ -5,8 +5,8 @@ import { theme } from 'antd';
 
 // scss import
 import styles from './styles/CommonLayout.module.scss';
-import { Header } from 'antd/es/layout/layout';
 import Sidebar from '../organisms/Sidebar';
+import Header from '../organisms/Header';
 
 // props type
 export type CommonLayoutProps = {
@@ -24,15 +24,23 @@ const CommonLayout = ({ id, children }: CommonLayoutProps) => {
     const {
         token: { colorBgContainer },
     } = theme.useToken();
+
+    const marginLeft = collapsed ? '-120px' : '0px';
     return (
         <div className={styles.commonLayout} key={id}>
-            <Header />
+            <Header
+                collapsed={collapsed}
+                setCollapsed={setCollapsed}
+                background={colorBgContainer}
+            />
             <Sidebar
                 collapsed={collapsed}
                 darkTheme={darkTheme}
                 toggleTheme={toggleTheme}
             />
-            <div className={styles.container}>{children}</div>
+            <div className={styles.container} style={{ marginLeft }}>
+                {children}
+            </div>
         </div>
     );
 };
