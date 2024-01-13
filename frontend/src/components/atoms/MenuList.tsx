@@ -15,6 +15,10 @@ import {
     SendOutlined,
 } from '@ant-design/icons';
 
+// react icons
+import { FaHtml5, FaReact, FaRust, FaRobot, FaMobileAlt } from 'react-icons/fa';
+import { FaGolang } from 'react-icons/fa6';
+
 const MenuList = ({ darkTeme }: any) => {
     return (
         <Menu
@@ -37,7 +41,7 @@ const MenuList = ({ darkTeme }: any) => {
                 title='開発実績'
             >
                 <Menu.SubMenu key='frontend' title='Frontend'>
-                    <Menu.Item key='frontend-1'>
+                    <Menu.Item key='frontend-1' icon={<FaHtml5 />}>
                         <Link
                             href={
                                 '/developmentachievements/frontend/htmlcsssass'
@@ -46,7 +50,7 @@ const MenuList = ({ darkTeme }: any) => {
                             HTML/CSS
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key='frontend-2'>
+                    <Menu.Item key='frontend-2' icon={<FaReact />}>
                         <Link
                             href={'/developmentachievements/frontend/reactnext'}
                         >
@@ -60,12 +64,12 @@ const MenuList = ({ darkTeme }: any) => {
                     </Menu.Item>
                 </Menu.SubMenu>
                 <Menu.SubMenu key='backend' title='Backend'>
-                    <Menu.Item key='backend-1'>
+                    <Menu.Item key='backend-1' icon={<FaRust />}>
                         <Link href={'/developmentachievements/backend/rust'}>
                             Rust
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key='backend-2'>
+                    <Menu.Item key='backend-2' icon={<FaGolang />}>
                         <Link
                             href={'/developmentachievements/backend/go'}
                         ></Link>
@@ -78,7 +82,7 @@ const MenuList = ({ darkTeme }: any) => {
                     </Menu.Item>
                 </Menu.SubMenu>
                 <Menu.SubMenu key='mobile' title='Mobile'>
-                    <Menu.Item key='mobile-1'>
+                    <Menu.Item key='mobile-1' icon={<FaMobileAlt />}>
                         <Link
                             href={'/developmentachievements/mobile/reactnative'}
                         ></Link>
@@ -86,7 +90,7 @@ const MenuList = ({ darkTeme }: any) => {
                     </Menu.Item>
                 </Menu.SubMenu>
                 <Menu.SubMenu key='others' title='その他'>
-                    <Menu.Item key='others-1'>
+                    <Menu.Item key='others-1' icon={<FaRobot />}>
                         <Link href={'/developmentachievements/others/auto'}>
                             自動化
                         </Link>
