@@ -1,0 +1,18 @@
+.commmonLayout {
+    .container {
+    }
+}
+
+@media screen and (max-width: var(--tablet)) {
+    .commmonLayout {
+        .container {
+        }
+    }
+}
+
+@media screen and (max-width: var(--mobile)) {
+    .commmonLayout {
+        .container {
+        }
+    }
+}
