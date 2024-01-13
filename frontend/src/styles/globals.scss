@@ -3,23 +3,27 @@
     --max-width: 1100px;
 
     // フォントの定義
-    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-        'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --font-mono: 'Mukta', sans-serif;
 
     // フォントサイズの定義
+    --font-size-small: 12px;
     --font-size-normal: 16px;
     --font-size-large: 24px;
-    --font-size-small: 12px;
+    --font-size-xlarge: 32px;
+    --font-size-xxlarge: 50px;
 
     // 色の定義
-    --primary-color: #0055aa;
+    --primary-color: #001529;
     --secondary-color: #ff5500;
     --background-color: #f4f4f4;
     --text-color: #333;
 
     // その他の変数
     --border-radius: 4px;
+
+    // レスポンシブサイズの定義(max-width)
+    --tablet: 1024px;
+    --mobile: 768px;
 }
 
 * {
@@ -35,3 +39,5 @@ body {
     font-size: var(--font-size-normal);
     line-height: 1.6;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
