@@ -5,6 +5,8 @@ import { theme } from 'antd';
 
 // scss import
 import styles from './styles/CommonLayout.module.scss';
+
+// components import
 import Sidebar from '../organisms/Sidebar';
 import Header from '../organisms/Header';
 
