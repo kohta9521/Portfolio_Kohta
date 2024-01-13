@@ -1,5 +1,9 @@
-.commmonLayout {
+.commonLayout {
+    position: relative;
     .container {
+        position: absolute;
+        top: 100px;
+        left: 250px;
     }
 }
 
