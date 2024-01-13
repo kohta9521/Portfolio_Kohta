@@ -26,25 +26,25 @@ const MenuList = ({ darkTeme }: any) => {
                 <Link href={'/'}>ホーム</Link>
             </Menu.Item>
             <Menu.Item key='activity' icon={<AppstoreOutlined />}>
-                <Link href={'/about'}>使用技術</Link>
+                <Link href={'/technologyused'}>使用技術</Link>
             </Menu.Item>
             {/* submenu */}
             <Menu.SubMenu key='tasks' icon={<BarsOutlined />} title='開発実績'>
-                <Menu.Item key='task-1'>バックエンド</Menu.Item>
-                <Menu.Item key='task-2'>フロントエンド</Menu.Item>
-                <Menu.SubMenu key='subtasks' title='Subtasks'>
+                <Menu.SubMenu key='subtasks' title='Frontend'>
                     <Menu.Item key='subtask-1'>HTML/CSS</Menu.Item>
                     <Menu.Item key='subtask-1'>React/Next.js</Menu.Item>
                 </Menu.SubMenu>
+                <Menu.Item key='task-1'>Backend</Menu.Item>
+                <Menu.Item key='task-1'>その他</Menu.Item>
             </Menu.SubMenu>
             <Menu.Item key='progress' icon={<AreaChartOutlined />}>
-                Progress
+                ブログ
             </Menu.Item>
             <Menu.Item key='payment' icon={<PayCircleOutlined />}>
-                Payment
+                私について
             </Menu.Item>
             <Menu.Item key='setting' icon={<SettingOutlined />}>
-                Setting
+                <Link href={'/contact'}>ご連絡</Link>
             </Menu.Item>
         </Menu>
     );

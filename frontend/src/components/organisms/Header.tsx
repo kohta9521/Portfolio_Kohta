@@ -1,7 +1,15 @@
 import React from 'react';
 import { Button, Layout } from 'antd';
-import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
+import {
+    MenuUnfoldOutlined,
+    MenuFoldOutlined,
+    GithubOutlined,
+    TwitterOutlined,
+    YoutubeOutlined,
+    LinkedinOutlined,
+} from '@ant-design/icons';
 
+// scss import
 import styles from './styles/Header.module.scss';
 
 type HeaderProps = {
@@ -25,9 +33,31 @@ const Header: React.FC<HeaderProps> = ({
                 icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
                 style={{ marginLeft }}
             />
-            <Button type='primary' className={styles.contact_button}>
-                CONTACT
-            </Button>
+            <div className={styles.flex}>
+                <Button
+                    shape='circle'
+                    className={styles.sns_icons}
+                    icon={<GithubOutlined />}
+                />
+                <Button
+                    shape='circle'
+                    className={styles.sns_icons}
+                    icon={<TwitterOutlined />}
+                />
+                <Button
+                    shape='circle'
+                    className={styles.sns_icons}
+                    icon={<YoutubeOutlined />}
+                />
+                <Button
+                    shape='circle'
+                    className={styles.sns_icons}
+                    icon={<LinkedinOutlined />}
+                />
+                <Button type='primary' className={styles.contact_button}>
+                    CONTACT
+                </Button>
+            </div>
         </Layout.Header>
     );
 };
