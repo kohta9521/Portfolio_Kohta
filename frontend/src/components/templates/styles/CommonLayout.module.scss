@@ -1,10 +1,11 @@
 .commonLayout {
     position: relative;
+    width: 100%;
+    height: 100%;
     .container {
         position: absolute;
         top: 100px;
         left: 250px;
-        height: 2000px;
     }
 }
 

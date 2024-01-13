@@ -37,18 +37,65 @@ const MenuList = ({ darkTeme }: any) => {
                 title='開発実績'
             >
                 <Menu.SubMenu key='frontend' title='Frontend'>
-                    <Menu.Item key='frontend-1'>HTML/CSS</Menu.Item>
-                    <Menu.Item key='frontend-2'>React/Next.js</Menu.Item>
-                    <Menu.Item key='frontend-3'>その他</Menu.Item>
+                    <Menu.Item key='frontend-1'>
+                        <Link
+                            href={
+                                '/developmentachievements/frontend/htmlcsssass'
+                            }
+                        >
+                            HTML/CSS
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key='frontend-2'>
+                        <Link
+                            href={'/developmentachievements/frontend/reactnext'}
+                        >
+                            React/Next.js
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key='frontend-3'>
+                        <Link href={'/developmentachievements/frontend/others'}>
+                            その他
+                        </Link>
+                    </Menu.Item>
                 </Menu.SubMenu>
                 <Menu.SubMenu key='backend' title='Backend'>
-                    <Menu.Item key='backend-1'>Rust</Menu.Item>
-                    <Menu.Item key='backend-2'>Go</Menu.Item>
-                    <Menu.Item key='backend-3'>その他</Menu.Item>
+                    <Menu.Item key='backend-1'>
+                        <Link href={'/developmentachievements/backend/rust'}>
+                            Rust
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key='backend-2'>
+                        <Link
+                            href={'/developmentachievements/backend/go'}
+                        ></Link>
+                        Go
+                    </Menu.Item>
+                    <Menu.Item key='backend-3'>
+                        <Link href={'/developmentachievements/backend/others'}>
+                            その他
+                        </Link>
+                    </Menu.Item>
+                </Menu.SubMenu>
+                <Menu.SubMenu key='mobile' title='Mobile'>
+                    <Menu.Item key='mobile-1'>
+                        <Link
+                            href={'/developmentachievements/mobile/reactnative'}
+                        ></Link>
+                        React Native
+                    </Menu.Item>
                 </Menu.SubMenu>
                 <Menu.SubMenu key='others' title='その他'>
-                    <Menu.Item key='others-1'>自動化</Menu.Item>
-                    <Menu.Item key='others-2'>その他</Menu.Item>
+                    <Menu.Item key='others-1'>
+                        <Link href={'/developmentachievements/others/auto'}>
+                            自動化
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key='others-2'>
+                        <Link href={'/developmentachievements/others/others'}>
+                            その他
+                        </Link>
+                    </Menu.Item>
                 </Menu.SubMenu>
             </Menu.SubMenu>
             <Menu.Item key='blog' icon={<FileTextOutlined />}>
