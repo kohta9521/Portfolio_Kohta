@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 // scss import
 import styles from './styles/MenuList.module.scss';
@@ -8,12 +9,11 @@ import { Menu } from 'antd';
 import {
     HomeOutlined,
     AppstoreOutlined,
-    AreaChartOutlined,
-    PayCircleOutlined,
-    SettingOutlined,
-    BarsOutlined,
+    CodeOutlined,
+    FileTextOutlined,
+    UserOutlined,
+    SendOutlined,
 } from '@ant-design/icons';
-import Link from 'next/link';
 
 const MenuList = ({ darkTeme }: any) => {
     return (
@@ -25,25 +25,36 @@ const MenuList = ({ darkTeme }: any) => {
             <Menu.Item key='home' icon={<HomeOutlined />}>
                 <Link href={'/'}>ホーム</Link>
             </Menu.Item>
-            <Menu.Item key='activity' icon={<AppstoreOutlined />}>
+            <Menu.Item key='about' icon={<UserOutlined />}>
+                <Link href={'/about'}>私について</Link>
+            </Menu.Item>
+            <Menu.Item key='techonology' icon={<AppstoreOutlined />}>
                 <Link href={'/technologyused'}>使用技術</Link>
             </Menu.Item>
-            {/* submenu */}
-            <Menu.SubMenu key='tasks' icon={<BarsOutlined />} title='開発実績'>
-                <Menu.SubMenu key='subtasks' title='Frontend'>
-                    <Menu.Item key='subtask-1'>HTML/CSS</Menu.Item>
-                    <Menu.Item key='subtask-1'>React/Next.js</Menu.Item>
+            <Menu.SubMenu
+                key='achievement'
+                icon={<CodeOutlined />}
+                title='開発実績'
+            >
+                <Menu.SubMenu key='frontend' title='Frontend'>
+                    <Menu.Item key='frontend-1'>HTML/CSS</Menu.Item>
+                    <Menu.Item key='frontend-2'>React/Next.js</Menu.Item>
+                    <Menu.Item key='frontend-3'>その他</Menu.Item>
                 </Menu.SubMenu>
-                <Menu.Item key='task-1'>Backend</Menu.Item>
-                <Menu.Item key='task-1'>その他</Menu.Item>
+                <Menu.SubMenu key='backend' title='Backend'>
+                    <Menu.Item key='backend-1'>Rust</Menu.Item>
+                    <Menu.Item key='backend-2'>Go</Menu.Item>
+                    <Menu.Item key='backend-3'>その他</Menu.Item>
+                </Menu.SubMenu>
+                <Menu.SubMenu key='others' title='その他'>
+                    <Menu.Item key='others-1'>自動化</Menu.Item>
+                    <Menu.Item key='others-2'>その他</Menu.Item>
+                </Menu.SubMenu>
             </Menu.SubMenu>
-            <Menu.Item key='progress' icon={<AreaChartOutlined />}>
-                ブログ
+            <Menu.Item key='blog' icon={<FileTextOutlined />}>
+                <Link href={'/blog'}>ブログ</Link>
             </Menu.Item>
-            <Menu.Item key='payment' icon={<PayCircleOutlined />}>
-                私について
-            </Menu.Item>
-            <Menu.Item key='setting' icon={<SettingOutlined />}>
+            <Menu.Item key='contact' icon={<SendOutlined />}>
                 <Link href={'/contact'}>ご連絡</Link>
             </Menu.Item>
         </Menu>
