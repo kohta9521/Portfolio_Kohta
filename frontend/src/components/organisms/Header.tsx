@@ -16,13 +16,13 @@ const AppHeader: React.FC<HeaderProps> = ({
 }) => {
     return (
         <Layout.Header className={styles.header}>
-            <Button
+            {/* <Button
                 type='text'
                 className={styles.toggle}
                 onClick={() => setCollapsed(!collapsed)}
                 icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             />
-            <Button type='primary'>Primary Button</Button>
+            <Button type='primary'>Primary Button</Button> */}
             {/* その他のヘッダー要素 */}
         </Layout.Header>
     );
