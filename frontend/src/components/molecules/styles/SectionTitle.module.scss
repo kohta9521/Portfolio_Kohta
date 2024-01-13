@@ -1,0 +1,34 @@
+.titleBox {
+    .titleText {
+        color: var(--primary-color);
+        font-size: var(--font-size-xxlarge);
+        font-family: var(--font-mono);
+        font-weight: 700;
+    }
+    .subtitleText {
+        color: var(--primary-color);
+        font-size: var(--font-size-normal);
+        font-family: var(--font-mono);
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .titleBox {
+        .titleText {
+            color: var(--secondary-color);
+        }
+        .subtitleText {
+        }
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .titleBox {
+        .titleText {
+            color: var(--text-color);
+        }
+        .subtitleText {
+        }
+    }
+}

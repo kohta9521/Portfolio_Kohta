@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({
                 style={{ marginLeft }}
             />
             <div className={styles.flex}>
-                <Button
+                {/* <Button
                     shape='circle'
                     className={styles.sns_icons}
                     icon={<GithubOutlined />}
@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({
                     shape='circle'
                     className={styles.sns_icons}
                     icon={<LinkedinOutlined />}
-                />
+                /> */}
                 <Button type='primary' className={styles.contact_button}>
                     CONTACT
                 </Button>
