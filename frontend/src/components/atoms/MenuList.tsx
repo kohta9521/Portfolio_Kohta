@@ -13,6 +13,7 @@ import {
     SettingOutlined,
     BarsOutlined,
 } from '@ant-design/icons';
+import Link from 'next/link';
 
 const MenuList = ({ darkTeme }: any) => {
     return (
@@ -22,10 +23,10 @@ const MenuList = ({ darkTeme }: any) => {
             className={styles.menu_bar}
         >
             <Menu.Item key='home' icon={<HomeOutlined />}>
-                ホーム
+                <Link href={'/'}>ホーム</Link>
             </Menu.Item>
             <Menu.Item key='activity' icon={<AppstoreOutlined />}>
-                使用技術
+                <Link href={'/about'}>使用技術</Link>
             </Menu.Item>
             {/* submenu */}
             <Menu.SubMenu key='tasks' icon={<BarsOutlined />} title='開発実績'>
