@@ -52,7 +52,6 @@ export default function Home() {
                 >
                     <Button
                         type='text'
-                        className={styles.toggle}
                         onClick={() => setCollapsed(!collapsed)}
                         icon={
                             collapsed ? (
@@ -62,7 +61,6 @@ export default function Home() {
                             )
                         }
                     />
-                    {/* <TextDisplay text='Home' /> */}
                 </Header>
             </Layout>
         </Layout>
