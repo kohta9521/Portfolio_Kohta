@@ -9,6 +9,8 @@ import SectionTitle from '../components/molecules/SectionTitle';
 import RowBox from '../components/organisms/RowBox';
 import LargeCard from '../components/organisms/cards/LargeCard';
 import ViewMoreButton from '../components/atoms/ViewMoreButton';
+import SmallCard from '../components/organisms/cards/SmallCard';
+import BasicCard from '../components/organisms/cards/BasicCard';
 
 export default function Home() {
     return (
@@ -30,9 +32,32 @@ export default function Home() {
                         fugit hic unde accusantium!
                     </p>
                 </LargeCard>
+                <div className={styles.small}>
+                    <div className={styles.halfHeight}>
+                        <SmallCard id={1}>
+                            <h1>tech lang</h1>
+                        </SmallCard>
+                        <SmallCard id={2}>
+                            <h1>tech lang</h1>
+                        </SmallCard>
+                    </div>
+                    <div className={styles.halfHeight}>
+                        <SmallCard id={1}>
+                            <h1>tech lang</h1>
+                        </SmallCard>
+                        <SmallCard id={2}>
+                            <h1>tech lang</h1>
+                        </SmallCard>
+                    </div>
+                </div>
             </RowBox>
-            <RowBox id={1}>
-                <h1>sample</h1>
+            <RowBox id={2}>
+                <BasicCard id={1}>
+                    <h1>sample</h1>
+                </BasicCard>
+                <BasicCard id={1}>
+                    <h1>sample</h1>
+                </BasicCard>
             </RowBox>
         </CommonLayout>
     );
