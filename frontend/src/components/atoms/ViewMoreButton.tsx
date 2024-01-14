@@ -18,7 +18,7 @@ const ViewMoreButton = ({ id, text, link }: ViewMoreButtonProps) => {
     return (
         <Link className={styles.moreButton} href={link} key={id}>
             {text}
-            <MdArrowForwardIos />
+            <MdArrowForwardIos className={styles.moreButton_icon} />
         </Link>
     );
 };
