@@ -6,3 +6,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+.small {
+    width: 650px;
+    .halfHeight {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .small {
+        width: 650px;
+        .halfHeight {
+            display: block;
+        }
+    }
+}
