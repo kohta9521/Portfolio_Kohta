@@ -14,11 +14,7 @@ type SidebarProps = {
     toggleTheme: () => void;
 };
 
-const Sidebar: React.FC<SidebarProps> = ({
-    collapsed,
-    darkTheme,
-    toggleTheme,
-}) => {
+const Sidebar: React.FC<SidebarProps> = ({ collapsed, darkTheme }) => {
     return (
         <Layout.Sider
             collapsed={collapsed}

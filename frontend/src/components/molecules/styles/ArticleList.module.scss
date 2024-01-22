@@ -1,0 +1,42 @@
+.articleListBox {
+    width: 100%;
+    max-width: 500px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--gray-color);
+    .imageBox {
+        width: 30%;
+        height: 100%;
+        padding: 10px 0;
+        .image {
+        }
+    }
+    .textBox {
+        width: 60%;
+        height: 100%;
+        padding: 20px 0px;
+        .title {
+            font-size: var(--font-size-large);
+            padding-bottom: 10px;
+            overflow: hidden; /* コンテンツがオーバーフローしたら非表示にする */
+            white-space: nowrap; /* テキストを一行に保つ */
+            text-overflow: ellipsis; /* オーバーフローしたテキストを省略記号で表す */
+        }
+        .date {
+            font-size: var(--font-size-small);
+        }
+        .desc {
+            font-size: var(--font-size-normal);
+            overflow: hidden; /* コンテンツがオーバーフローしたら非表示にする */
+            white-space: nowrap; /* テキストを一行に保つ */
+            text-overflow: ellipsis; /* オーバーフローしたテキストを省略記号で表す */
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}

@@ -6,6 +6,7 @@
     transition: all 0.3s ease-in-out;
     &:hover {
         color: var(--gray-color);
+        transition: all 0.3s ease-in-out;
         transform: translateX(5px);
     }
     .moreButton_icon {

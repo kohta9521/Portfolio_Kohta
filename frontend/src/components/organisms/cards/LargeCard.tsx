@@ -7,7 +7,7 @@ import styles from './styles/LargeCard.module.scss';
 // custom hooks import
 import useAOS from '../../../hooks/useAOS';
 
-// type
+// type exports
 export type LargeCardProps = {
     id: number;
     children: React.ReactNode;

@@ -28,8 +28,10 @@
     .titleBox {
         .titleText {
             color: var(--text-color);
+            font-size: var(--font-size-xlarge);
         }
         .subtitleText {
+            font-size: var(--font-size-normal);
         }
     }
 }

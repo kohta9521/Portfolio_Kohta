@@ -1,24 +1,25 @@
-.sidebar {
-    color: #fff;
-}
-
+// 上のRowBoxのスタイル
+// LargeCard
 .titleFlex {
     display: flex;
     justify-content: space-between;
-}
-
-.small {
-    width: 650px;
-    .halfHeight {
-        display: flex;
+    margin-bottom: 20px;
+    .title {
+        font-size: 30px;
+        font-weight: bold;
     }
 }
-
-@media screen and (max-width: 1024px) {
-    .small {
-        width: 650px;
-        .halfHeight {
-            display: block;
-        }
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+    .contentText {
+        display: block;
+        padding-top: 50px;
+        width: 60%;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .contentImage {
+        display: block;
     }
 }
