@@ -29,7 +29,7 @@ const ArticleList = ({
                 <Image
                     className={styles.image}
                     src={image}
-                    width={300}
+                    width={150}
                     height={100}
                     alt='記事画像'
                 />
