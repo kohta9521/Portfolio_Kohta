@@ -11,6 +11,8 @@ import RowBox from '../components/organisms/RowBox';
 import LargeCard from '../components/organisms/cards/LargeCard';
 import ViewMoreButton from '../components/atoms/ViewMoreButton';
 import CardTitle from '../components/atoms/CardTitle';
+import { Row } from 'antd';
+import BasicCard from '../components/organisms/cards/BasicCard';
 
 export default function Home() {
     return (
@@ -37,10 +39,18 @@ export default function Home() {
                             src='/images/samplePerson.jpeg'
                             width={250}
                             height={250}
-                            alt='kohta'
+                            alt='kohta-profile-image'
                         />
                     </div>
                 </LargeCard>
+            </RowBox>
+            <RowBox id={2}>
+                <BasicCard id={1}>
+                    <CardTitle id={2} title='ブログ記事' />
+                </BasicCard>
+                <BasicCard id={1}>
+                    <CardTitle id={3} title='Qiita記事' />
+                </BasicCard>
             </RowBox>
         </CommonLayout>
     );
