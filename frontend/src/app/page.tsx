@@ -13,6 +13,7 @@ import ViewMoreButton from '../components/atoms/ViewMoreButton';
 import CardTitle from '../components/atoms/CardTitle';
 import { Row } from 'antd';
 import BasicCard from '../components/organisms/cards/BasicCard';
+import NameText from '../components/atoms/NameText';
 
 export default function Home() {
     return (
@@ -29,11 +30,15 @@ export default function Home() {
                         <ViewMoreButton id={1} text='View More' link='/about' />
                     </div>
                     <div className={styles.contentFlex}>
-                        <p className={styles.contentText}>
-                            このサイトでは私、kohtaのエンジニアとして、またそれ以外の活動をご紹介しています。
-                            エンジニアとしての日々の活動や普段使用している言語・ツール。DJ、動画編集、コミュニティ運営など多岐にわたる活動をしています。
-                            是非このサイトで楽しい時間を過ごしていただければ幸いです。
-                        </p>
+                        <div>
+                            <NameText />
+                            <p className={styles.contentText}>
+                                このサイトでは私、kohtaのエンジニアとして、またそれ以外の活動をご紹介しています。
+                                エンジニアとしての日々の活動や普段使用している言語・ツール。DJ、動画編集、コミュニティ運営など多岐にわたる活動をしています。
+                                是非このサイトで楽しい時間を過ごしていただければ幸いです。
+                            </p>
+                        </div>
+
                         <Image
                             className={styles.contentImage}
                             src='/images/samplePerson.jpeg'
