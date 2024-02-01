@@ -5,7 +5,6 @@ use warp::{http::Method, Filter};
 struct QiitaItem {
     title: String,
     url: String,
-    // その他の必要なフィールドをここに追加
 }
 
 async fn fetch_qiita_items() -> Result<Vec<QiitaItem>, reqwest::Error> {
@@ -23,13 +22,13 @@ async fn fetch_qiita_items() -> Result<Vec<QiitaItem>, reqwest::Error> {
 
 #[tokio::main]
 async fn main() {
-    // CORS設定を作成
-    let cors = warp::cors()
-        .allow_any_origin() // すべてのオリジンを許可（本番環境では具体的なオリジンを指定）
-        .allow_headers(vec!["Content-Type", "Authorization"]) // 許可するヘッダー
-        .allow_methods(vec![Method::GET]); // 許可するHTTPメソッド
 
-    // qiita_routeの定義
+    let cors = warp::cors()
+        .allow_any_origin()
+        .allow_headers(vec!["Content-Type", "Authorization"])
+        .allow_methods(vec![Method::GET]);
+
+
     let qiita_route = warp::path("qiita")
         .and(warp::get())
         .then(|| async {
