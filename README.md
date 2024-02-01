@@ -55,34 +55,50 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
-#### Frontend
+### Frontend
 
-- Next.js (14.0.2)
-- React (^18)
-- TypeScript (^5)
-- Sass (^1.69.5)
-- Storybook (^7.5.3)
-- jest
-- Prettier (3.1.0)
-- ESLint (^8)
-- zod (^3.22.4)
+| パッケージ名                           | バージョン   |
+| -------------------------------------- | ------------ |
+| next                                   | 14.1.0       |
+| React                                  | ^18          |
+| TypeScript                             | 5.3.3        |
+| Sass                                   | ^1.69.5      |
+| Storybook                              | ^7.5.3       |
+| jest                                   |              |
+| Prettier                               | 3.2.4        |
+| ESLint                                 | 8.56.0       |
+| zod                                    | ^3.22.4      |
+| tailwindcss                            | 3.4.1        |
+| husky                                  | 9.0.6        |
+| lint-staged                            | 15.2.0       |
+| markuplint                             | 3.15.0       |
+| secretlint                             | 8.1.0        |
+| @typescript-eslint/eslint-plugin       | 6.19.1       |
+| @typescript-eslint/parser              | 6.19.1       |
+| eslint-config-prettier                 | 9.1.0        |
+| eslint-plugin-tailwindcss              | 3.14.1       |
+| eslint-plugin-unused-imports           | 3.0.0        |
 
-#### Backend
+### Backend
 
-- Rust
-- Actix Web
-- Diesel
-- Tera
-- Clap
-- Thirtyfour
+| パッケージ名                           | バージョン   |
+| -------------------------------------- | ------------ |
+| Rust                                   |              |
+| Actix Web                              |              |
+| Diesel                                 |              |
+| Tera                                   |              |
+| Clap                                   |              |
+| Thirtyfour                             |              |
 
-#### Others
+### Others
 
-- Docker
-- Heroku
-- GitHub Actions
+| パッケージ名                           | バージョン   |
+| -------------------------------------- | ------------ |
+| Docker                                 |              |
+| Heroku                                 |              |
+| GitHub Actions                         |              |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
