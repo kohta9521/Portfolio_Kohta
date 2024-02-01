@@ -1,18 +1,27 @@
 .listItem {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 // props
 .small {
+  font-size: var(--small-font-size);
 }
 .medium {
+  font-size: var(--default-font-size);
 }
 .large {
+  font-size: var(--large-font-size);
 }
 .black {
+  color: var(--main-black-color);
 }
 .white {
+  color: var(--main-white-color);
 }
 .blue {
+  color: var(--main-blue-color);
 }
 
 @media screen and (max-width: 1024px) {

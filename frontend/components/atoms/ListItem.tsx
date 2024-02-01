@@ -14,8 +14,8 @@ export type ListItemProps = {
 
 const ListItem = ({ id, text, link, size = 'medium', color = 'black' }: ListItemProps) => {
   return (
-    <Link key={id} href={link} className={`${styles.listItem} ${styles[size]} ${styles[color]}`}>
-      {text}
+    <Link key={id} href={link} className={`${styles.listItem}`}>
+      <p className={`${styles[size]} ${styles[color]}`}>{text}</p>
     </Link>
   );
 };
