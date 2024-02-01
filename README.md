@@ -66,7 +66,7 @@
 | TypeScript                             | 5.3.3        |
 | Sass                                   | ^1.69.5      |
 | Storybook                              | ^7.5.3       |
-| jest                                   |              |
+| jest                                   | 9.8.1        |
 | Prettier                               | 3.2.4        |
 | ESLint                                 | 8.56.0       |
 | zod                                    | ^3.22.4      |
@@ -85,18 +85,18 @@
 
 | パッケージ名                           | バージョン   |
 | -------------------------------------- | ------------ |
-| Rust                                   |              |
-| Actix Web                              |              |
-| Diesel                                 |              |
-| Tera                                   |              |
-| Clap                                   |              |
-| Thirtyfour                             |              |
+| Rust                                   | 9.8.1        |
+| Actix Web                              | 0.13.2       |
+| Diesel                                 | 2.1.4        |
+| Tera                                   | 1.19.1       |
+| Clap                                   | 4.4.18       |
+| Thirtyfour                             | 0.31.0       |
 
 ### Others
 
 | パッケージ名                           | バージョン   |
 | -------------------------------------- | ------------ |
-| Docker                                 |              |
+| Docker                                 | 24.0.6       |
 | Heroku                                 |              |
 | GitHub Actions                         |              |
 
