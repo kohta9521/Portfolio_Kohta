@@ -1,18 +1,33 @@
 .logoBox {
+  text-decoration: none;
+  cursor: pointer;
+  width: 300px;
+  height: 80px;
+  border: 1px solid var(--main-black-color);
+  .text {
+    line-height: 80px;
+    text-align: center;
+  }
 }
 
 // props
 .black {
+  color: var(--main-black-color);
 }
 .white {
+  color: var(--main-white-color);
 }
 .blue {
+  color: var(--main-blue-color);
 }
 .small {
+  font-size: var(--small-font-size);
 }
 .medium {
+  font-size: var(--default-font-size);
 }
 .large {
+  font-size: 40px;
 }
 
 @media screen and (max-width: 1024px) {
