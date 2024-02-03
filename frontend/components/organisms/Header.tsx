@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <Logo id={1} link="/" color="black" size="medium" />
+        <Logo id={1} link="/" color="black" size="large" />
         <HeaderList />
       </div>
     </div>
