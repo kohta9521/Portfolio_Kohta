@@ -1,5 +1,5 @@
-// scss import
 import Link from 'next/link';
+
 import styles from './styles/ListItem.module.scss';
 
 // props type
