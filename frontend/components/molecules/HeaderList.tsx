@@ -1,4 +1,4 @@
-// scss import
+import ListContactBtn from '../atoms/ListContactBtn';
 import ListItem from '../atoms/ListItem';
 
 import styles from './styles/HeaderList.module.scss';
@@ -10,6 +10,7 @@ const HeaderList = () => {
       <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'black'} />
       <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'black'} />
       <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'black'} />
+      <ListContactBtn id={1} text={'Contact'} link={'/contact'} />
     </div>
   );
 };
