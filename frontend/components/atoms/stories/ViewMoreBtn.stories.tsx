@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import ViewMoreBtn from '../VIewMoreBtn';
+import ViewMoreBtn from '../ViewMoreBtn';
 
 const meta: Meta = {
   title: 'Components/Atoms/ViewMoreBtn',

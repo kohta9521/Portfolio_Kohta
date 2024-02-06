@@ -7,6 +7,9 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
+    '@storybook/addon-backgrounds',
+    '@storybook/addon-viewport/register',
+    'storybook-addon-figma',
   ],
   framework: {
     name: '@storybook/nextjs',
