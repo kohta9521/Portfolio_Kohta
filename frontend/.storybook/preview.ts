@@ -9,6 +9,22 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    backgrounds: {
+      default: 'black',
+      values: [
+        {
+          name: 'black',
+          value: '#000000',
+        },
+        {
+          name: 'white',
+          value: '#ffffff',
+        },
+      ],
+    },
+    // figma: {
+    //   url: 'https://www.figma.com/file/pv7SgKUZguNTReKqWG7VIX/PortfolioSite?type=design&node-id=0%3A1&mode=design&t=NXu3OZhHaKgRMhXA-1',
+    // },
   },
 };
 

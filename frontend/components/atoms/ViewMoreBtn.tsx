@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import styles from './FooterHoverBtn/ViewMoreBtn.module.scss';
+import styles from './styles/ViewMoreBtn.module.scss';
 
 export type ViewMoreBtnProps = {
   id: number;
@@ -11,8 +11,8 @@ export type ViewMoreBtnProps = {
 
 const ViewMoreBtn = ({ id, text = 'View More', link, color = 'white' }: ViewMoreBtnProps) => {
   return (
-    <Link className={styles.linkBox} href={link} key={id}>
-      <p className={`${styles.logoText} ${styles[color]}`}>{text}</p>
+    <Link className={`${styles.linkBox} ${styles[color]}`} href={link} key={id}>
+      <p className={`${styles.logoText}`}>{text}</p>
       <span className={styles.arrow}></span>
     </Link>
   );

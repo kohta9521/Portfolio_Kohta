@@ -27,6 +27,7 @@
     "@storybook/addon-interactions": "^7.6.12",
     "@storybook/addon-links": "^7.6.12",
     "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/addon-viewport": "^7.6.13",
     "@storybook/blocks": "^7.6.12",
     "@storybook/nextjs": "^7.6.12",
     "@storybook/react": "^7.6.12",
@@ -49,6 +50,7 @@
     "sass": "^1.70.0",
     "secretlint": "^8.1.1",
     "storybook": "^7.6.12",
+    "storybook-addon-figma": "^0.1.0",
     "typescript": "^5"
   }
 }
