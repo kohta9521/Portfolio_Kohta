@@ -15,7 +15,7 @@ export type LogoProps = {
 const Logo = ({ id, link, color = 'black', size = 'medium' }: LogoProps) => {
   return (
     <Link key={id} className={`${styles.logoBox}`} href={link}>
-      <h1 className={`${styles.text} ${styles[color]} ${styles[size]}`}>LOGO</h1>
+      <h1 className={`${styles.text} ${styles[color]} ${styles[size]}`}>Kohta Engineer Portfolio</h1>
     </Link>
   );
 };
