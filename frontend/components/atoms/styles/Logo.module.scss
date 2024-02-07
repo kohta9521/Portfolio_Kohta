@@ -3,6 +3,7 @@
   cursor: pointer;
   width: 250px;
   height: 80px;
+  z-index: 10;
   .text {
     line-height: 80px;
     text-align: center;
@@ -23,10 +24,10 @@
   font-size: var(--small-font-size);
 }
 .medium {
-  font-size: var(--default-font-size);
+  font-size: 20px;
 }
 .large {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1024px) {

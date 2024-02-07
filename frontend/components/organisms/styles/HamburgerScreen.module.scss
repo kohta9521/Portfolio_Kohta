@@ -4,7 +4,7 @@
   right: 0; /* 左からではなく、右からスライドインさせるために変更 */
   width: 100%; /* メニューの幅を全体の80%に設定 */
   height: 100vh;
-  background-color: var(--main-black-color);
+  background-color: #111111;
   display: flex;
   transform: translateX(100%); /* 初期状態では画面外（右側）に隠れるように変更 */
   transition: transform 2s ease-in-out;

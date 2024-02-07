@@ -2,14 +2,14 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 10px;
-  right: 10px;
+  right: 30px;
+  top: -5px;
   z-index: 999;
+  height: 80px;
 
   &.open .line {
     &:nth-child(1) {
