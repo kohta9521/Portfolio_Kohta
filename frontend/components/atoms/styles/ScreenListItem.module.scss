@@ -1,8 +1,9 @@
 .linkItem {
   color: var(--sub-text-color);
   position: relative;
-  display: inline-block;
+  display: block;
   text-decoration: none;
+  margin-bottom: 14px;
 
   &::after {
     content: '';

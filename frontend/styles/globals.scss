@@ -9,6 +9,7 @@
   --main-white-color: #ffffff;
   --main-text-color: #1a1a1a;
   --sub-text-color: #888888;
+  --sub-white-color: #d8d8d8;
 
   // border radius
   --border-defualt: 4px;
@@ -19,6 +20,7 @@
   --large-font-size: 18px;
   --xlarge-font-size: 20px;
   --xxlarge-font-size: 24px;
+  --xxxlarge-font-size: 35px;
 }
 
 * {
@@ -32,10 +34,5 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: var(--main-black-color);
-  color: var(--main-white-color);
-}
-
-a {
-  text-decoration: none;
   color: var(--main-white-color);
 }

@@ -4,6 +4,10 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { FaSquareGithub } from 'react-icons/fa6';
 
+import ScreenListItem from '../atoms/ScreenListItem';
+import ScreenTitle from '../atoms/ScreenTitle';
+import ScreenListBox from '../molecules/ScreenListBox';
+
 import styles from './styles/HamburgerScreen.module.scss';
 
 // react icons
@@ -27,7 +31,18 @@ const HamburgerScreen = ({ isOpen }: HamburgerScreenProps) => {
         </Link>
       </div>
       <div className={styles.centerBox}>
-        <div className={styles.container}></div>
+        <div className={styles.container}>
+          <ScreenListBox id={1}>
+            <ScreenTitle id={1} text={'TOP'} />
+            <ScreenListItem id={1} text={'トップ'} link={'/'} />
+          </ScreenListBox>
+          <ScreenListBox id={2}>
+            <ScreenTitle id={2} text={'ABOUT'} />
+            <ScreenListItem id={2} text={'会社概要'} link={'/'} />
+            <ScreenListItem id={3} text={'サービス'} link={'/'} />
+            <ScreenListItem id={4} text={'会社理念'} link={'/'} />
+          </ScreenListBox>
+        </div>
       </div>
       <div className={styles.rightBox}>
         <p className={styles.title}>Kohta Portfolio Site</p>
@@ -39,16 +54,16 @@ const HamburgerScreen = ({ isOpen }: HamburgerScreenProps) => {
         </p>
         <div className={styles.snsBox}>
           <Link href={'/'} className={styles.snsLink}>
-            <FaSquareXTwitter />
+            <FaSquareXTwitter className={styles.icon} />
           </Link>
           <Link href={'/'} className={styles.snsLink}>
-            <FaSquareGithub />
+            <FaSquareGithub className={styles.icon} />
           </Link>
           <Link href={'/'} className={styles.snsLink}>
-            <FaInstagramSquare />
+            <FaInstagramSquare className={styles.icon} />
           </Link>
           <Link href={'/'} className={styles.snsLink}>
-            <FaLinkedin />
+            <FaLinkedin className={styles.icon} />
           </Link>
         </div>
       </div>

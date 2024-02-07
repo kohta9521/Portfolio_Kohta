@@ -19,6 +19,7 @@
       width: 100%;
       height: 49%;
       margin-top: 3%;
+      text-decoration: none;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -32,27 +33,57 @@
     width: 65%;
     height: 100%;
     border: 1px solid var(--main-white-color);
+    padding: 50px;
     .container {
+      height: 100%;
+      border: 1px solid var(--main-white-color);
     }
   }
   .rightBox {
+    display: flex;
     width: 20%;
     height: 100%;
+    text-align: right;
+    flex-direction: column;
+    justify-content: flex-end;
     border: 1px solid var(--main-white-color);
+    .title {
+      padding: 0px 40px 10px 0px;
+      font-weight: bold;
+      font-size: var(--xlarge-font-size);
+    }
+    .address {
+      font-size: var(--default-font-size);
+      padding: 10px 40px 20px 0px;
+    }
+    .snsBox {
+      padding: 20px 40px 40px 0px;
+      .snsLink {
+        cursor: pointer;
+        color: var(--main-white-color);
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 30px;
+        &:hover {
+          background-color: var(--main-black-color);
+        }
+        .icon {
+          width: 30px;
+          &:hover {
+            color: var(--sub-white-color);
+          }
+        }
+      }
+    }
   }
 
   &.open {
     transform: translateX(0); /* 画面全体を覆うようにメニューを表示 */
   }
+}
 
-  a {
-    padding: 15px 20px;
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
+@media screen and (max-width: 1024px) {
+}
 
-    &:hover {
-      background-color: #ddd;
-    }
-  }
+@media screen and (max-width: 768px) {
 }
