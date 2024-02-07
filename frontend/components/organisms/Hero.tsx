@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import styles from './styles/Hero.module.scss';
 
 const Hero = () => {
@@ -11,7 +9,6 @@ const Hero = () => {
           <div className={styles.bottomBox}></div>
         </div>
         <div className={styles.rightBox}>
-          <Image className={styles.heroImg} src={} width={} height={} alt="heroCoverImage" />
           <p className={styles.imgText}></p>
         </div>
       </div>
