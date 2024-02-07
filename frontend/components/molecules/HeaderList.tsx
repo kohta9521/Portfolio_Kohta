@@ -1,16 +1,29 @@
-import ListContactBtn from '../atoms/ListContactBtn';
+'use client';
+import { useState } from 'react';
+
+// components
+import HamburgerBtn from '../atoms/HamburgerBtn';
 import ListItem from '../atoms/ListItem';
+import HamburgerScreen from '../organisms/HamburgerScreen';
 
 import styles from './styles/HeaderList.module.scss';
 
 const HeaderList = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className={styles.headerList}>
       <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'white'} />
-      <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'white'} />
-      <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'white'} />
-      <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'white'} />
-      <ListContactBtn id={1} text={'Contact'} link={'/contact'} />
+      <ListItem id={1} text={'About'} link={'/'} size={'medium'} color={'white'} />
+      <ListItem id={1} text={'Services'} link={'/'} size={'medium'} color={'white'} />
+      <ListItem id={1} text={'Works'} link={'/'} size={'medium'} color={'white'} />{' '}
+      <ListItem id={1} text={'Blog'} link={'/'} size={'medium'} color={'white'} />{' '}
+      <ListItem id={1} text={'Contact'} link={'/'} size={'medium'} color={'white'} />{' '}
+      <HamburgerBtn isOpen={false} toggle={toggle} />
+      <HamburgerScreen isOpen={isOpen} />
     </div>
   );
 };

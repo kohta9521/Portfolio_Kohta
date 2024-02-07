@@ -7,8 +7,6 @@
   // color
   --main-black-color: #000000;
   --main-white-color: #ffffff;
-  --main-blue-color: #002bff;
-  --sub-blue-color: #00aaff;
   --main-text-color: #1a1a1a;
 
   // border radius
@@ -26,11 +24,17 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: var(--main-black-color);
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white-color);
 }

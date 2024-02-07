@@ -1,0 +1,45 @@
+.hamburgerBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+
+    .line {
+      background-color: var(--main-white-color);
+      width: 45px;
+      transition: all 0.3s ease;
+      &:nth-child(1) {
+        height: 2px;
+        transform: translateY(6px);
+      }
+      &:nth-child(2) {
+        height: 2px;
+        transform: translateY(8px);
+      }
+    }
+  }
+}
+
+.open {
+  &:nth-child(1) {
+    height: 6px;
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  &:nth-child(2) {
+    height: 6px;
+    opacity: 0;
+  }
+}

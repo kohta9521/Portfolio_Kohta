@@ -1,0 +1,31 @@
+.screen {
+  position: fixed;
+  top: 0;
+  right: 0; /* 左からではなく、右からスライドインさせるために変更 */
+  width: 100%; /* メニューの幅を全体の80%に設定 */
+  height: 100vh;
+  background-color: var(--main-black-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%); /* 初期状態では画面外（右側）に隠れるように変更 */
+  transition: transform 2s ease-in-out;
+  z-index: 30;
+  border-left: 1px solid var(--main-white-color);
+
+  &.open {
+    transform: translateX(0); /* 画面全体を覆うようにメニューを表示 */
+  }
+
+  a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}

@@ -53,6 +53,6 @@ export const Default: ListItem = {
     text: 'Home',
     link: '/',
     size: 'medium',
-    color: 'black',
+    color: 'white',
   },
 };

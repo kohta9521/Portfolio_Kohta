@@ -8,10 +8,10 @@ export type ListItemProps = {
   text: string;
   link: string;
   size?: 'small' | 'medium' | 'large';
-  color?: 'black' | 'white' | 'blue';
+  color?: 'black' | 'white';
 };
 
-const ListItem = ({ id, text, link, size = 'medium', color = 'black' }: ListItemProps) => {
+const ListItem = ({ id, text, link, size = 'medium', color = 'white' }: ListItemProps) => {
   return (
     <Link key={id} href={link} className={`${styles.listItem}`}>
       <p className={`${styles[size]} ${styles[color]}`}>{text}</p>
