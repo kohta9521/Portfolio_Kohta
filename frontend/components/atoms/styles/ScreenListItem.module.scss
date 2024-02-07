@@ -1,3 +1,21 @@
 .linkItem {
   color: var(--sub-text-color);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.2s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
 }
