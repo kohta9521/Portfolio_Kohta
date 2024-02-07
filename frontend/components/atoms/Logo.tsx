@@ -1,5 +1,7 @@
+'use client';
 import Link from 'next/link';
-import React from 'react';
+
+import useAOS from '@/hooks/useAOS';
 
 // scss import
 import styles from './styles/Logo.module.scss';
@@ -13,8 +15,9 @@ export type LogoProps = {
 };
 
 const Logo = ({ id, link, color = 'black', size = 'medium' }: LogoProps) => {
+  useAOS();
   return (
-    <Link key={id} className={`${styles.logoBox}`} href={link}>
+    <Link key={id} className={`${styles.logoBox}`} href={link} data-aos="fade-up">
       <h1 className={`${styles.text} ${styles[color]} ${styles[size]}`}>Kohta Engineer Portfolio</h1>
     </Link>
   );
