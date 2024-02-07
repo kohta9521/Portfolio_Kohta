@@ -8,10 +8,10 @@ export type HamburgerBtnProps = {
 
 const HamburgerBtn = ({ isOpen, toggle }: HamburgerBtnProps) => {
   return (
-    <button className={styles.hamburgerBtn} onClick={toggle}>
+    <button className={`${styles.hamburgerBtn} ${isOpen ? styles.open : ''}`} onClick={toggle}>
       <div className={styles.icon}>
-        <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
-        <span className={`${styles.line} ${isOpen ? styles.open : ''}`}></span>
+        <span className={`${styles.line}`}></span>
+        <span className={`${styles.line}`}></span>
       </div>
     </button>
   );

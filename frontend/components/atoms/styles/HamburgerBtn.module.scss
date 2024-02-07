@@ -10,6 +10,17 @@
   top: 10px;
   right: 10px;
   z-index: 999;
+
+  &.open .line {
+    &:nth-child(1) {
+      height: 2px;
+      transform: rotate(45deg) translateX(10px); // translateYをtranslateXに修正します
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+  }
+
   .icon {
     display: flex;
     flex-direction: column;
@@ -29,17 +40,5 @@
         transform: translateY(8px);
       }
     }
-  }
-}
-
-.open {
-  &:nth-child(1) {
-    height: 6px;
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  &:nth-child(2) {
-    height: 6px;
-    opacity: 0;
   }
 }

@@ -12,7 +12,6 @@
   transform: translateX(100%); /* 初期状態では画面外（右側）に隠れるように変更 */
   transition: transform 2s ease-in-out;
   z-index: 30;
-  border-left: 1px solid var(--main-white-color);
 
   &.open {
     transform: translateX(0); /* 画面全体を覆うようにメニューを表示 */
