@@ -2,6 +2,7 @@ import React from 'react';
 
 // components import
 import GrayHeroBg from '@/components/molecules/GraryHeroBg';
+import About from '@/components/organisms/About';
 import Header from '@/components/organisms/Header';
 import Hero from '@/components/organisms/Hero';
 import News from '@/components/organisms/News';
@@ -14,6 +15,7 @@ export default function Home() {
       <GrayHeroBg />
       <Header />
       <Hero />
+      <About />
       <News />
     </main>
   );

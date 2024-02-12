@@ -12,13 +12,14 @@
   }
   .titleBar {
     display: block;
-    width: 10px;
+    width: 3px;
     height: 70px;
     margin: 0 20px;
     background-color: var(--main-white-color);
   }
   .titleTextBox {
-    height: 70px;
+    display: block;
+    height: 60px;
     .jaTitle {
       display: block;
       height: 20px;

@@ -1,13 +1,12 @@
-// scss import
-import styles from './styles/News.module.scss';
+import SectionTitle from '../molecules/SectionTitle';
 
-// components import
+import styles from './styles/News.module.scss';
 
 const News = () => {
   return (
     <div className={styles.news}>
       <div className={styles.container}>
-        <h1>recent works</h1>
+        <SectionTitle id={1} idName="news" number={'01'} jaTitle={'お知らせ'} enTitle={'NEWS'} color="white" />
       </div>
     </div>
   );
