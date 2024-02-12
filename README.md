@@ -70,7 +70,6 @@
 | Prettier                               | 3.2.4        |
 | ESLint                                 | 8.56.0       |
 | zod                                    | ^3.22.4      |
-| tailwindcss                            | 3.4.1        |
 | husky                                  | 9.0.6        |
 | lint-staged                            | 15.2.0       |
 | markuplint                             | 3.15.0       |
@@ -78,7 +77,6 @@
 | @typescript-eslint/eslint-plugin       | 6.19.1       |
 | @typescript-eslint/parser              | 6.19.1       |
 | eslint-config-prettier                 | 9.1.0        |
-| eslint-plugin-tailwindcss              | 3.14.1       |
 | eslint-plugin-unused-imports           | 3.0.0        |
 
 ### Backend
