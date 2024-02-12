@@ -6,7 +6,9 @@ import styles from './styles/News.module.scss';
 const News = () => {
   return (
     <div className={styles.news}>
-      <div className={styles.container}></div>
+      <div className={styles.container}>
+        <h1>recent works</h1>
+      </div>
     </div>
   );
 };

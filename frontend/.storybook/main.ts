@@ -18,8 +18,14 @@ const config: StorybookConfig = {
     options: {},
   },
   webpackFinal: async (config) => {
+    // config.resolve が未定義の場合に初期化
+    config.resolve = config.resolve || {};
+    // config.resolve.alias が未定義の場合に初期化
+    config.resolve.alias = config.resolve.alias || {};
+
     // エイリアスの設定
     config.resolve.alias['@'] = path.resolve(__dirname, '../');
+
     // その他のカスタマイズがあればここに追加
     return config;
   },
