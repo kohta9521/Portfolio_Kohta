@@ -1,9 +1,10 @@
 import React from 'react';
 
+// components import
 import GrayHeroBg from '@/components/molecules/GraryHeroBg';
-import Footer from '@/components/organisms/Footer';
 import Header from '@/components/organisms/Header';
 import Hero from '@/components/organisms/Hero';
+import News from '@/components/organisms/News';
 
 import styles from '../styles/page.module.scss';
 
@@ -13,7 +14,7 @@ export default function Home() {
       <GrayHeroBg />
       <Header />
       <Hero />
-      <Footer />
+      <News />
     </main>
   );
 }

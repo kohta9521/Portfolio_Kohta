@@ -1,4 +1,6 @@
 import type { StorybookConfig } from '@storybook/nextjs';
+import { resolve } from 'dns';
+const path = require('path');
 
 const config: StorybookConfig = {
   stories: ['../**/*.mdx', '../**/*.stories.@(js|jsx|mjs|ts|tsx)'],
@@ -14,6 +16,12 @@ const config: StorybookConfig = {
   framework: {
     name: '@storybook/nextjs',
     options: {},
+  },
+  webpackFinal: async (config) => {
+    // エイリアスの設定
+    config.resolve.alias['@'] = path.resolve(__dirname, '../');
+    // その他のカスタマイズがあればここに追加
+    return config;
   },
   docs: {
     autodocs: 'tag',
