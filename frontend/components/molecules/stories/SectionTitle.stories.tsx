@@ -23,9 +23,9 @@ type SectionTitle = StoryObj<typeof SectionTitle>;
 export const Default: SectionTitle = {
   args: {
     id: 1,
-    idName: 'services',
+    idName: 'news',
     number: '01',
-    jaTitle: 'サービス',
-    enTitle: 'Services',
+    jaTitle: '最近の仕事',
+    enTitle: 'Recent Works',
   },
 };

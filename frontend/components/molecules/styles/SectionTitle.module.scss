@@ -1,20 +1,41 @@
 .sectionTitle {
+  max-width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
   .titleNumber {
+    display: block;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 100px;
   }
   .titleBar {
+    display: block;
+    width: 10px;
+    height: 70px;
+    margin: 0 20px;
+    background-color: var(--main-white-color);
   }
   .titleTextBox {
+    height: 70px;
     .jaTitle {
+      display: block;
+      height: 20px;
     }
     .enTitle {
+      display: block;
+      height: 50px;
     }
   }
 }
 
 // props
 .white {
+  color: var(--main-white-color);
 }
 .black {
+  color: var(--main-black-color);
 }
 
 @media screen and (max-width: 1280px) {
