@@ -1,9 +1,9 @@
-// scss import
-import styles from './styles/News.module.scss';
-
 // components import
 import NewsBox from '../molecules/NewsBox';
 import SectionTitle from '../molecules/SectionTitle';
+
+// scss import
+import styles from './styles/News.module.scss';
 
 const News = () => {
   return (
