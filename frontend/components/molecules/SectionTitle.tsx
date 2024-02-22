@@ -14,10 +14,11 @@ export type SectionTitleProps = {
 const SectionTitle = ({ id, idName, number, jaTitle, enTitle, color = 'white' }: SectionTitleProps) => {
   return (
     <div key={id} id={idName} className={`${styles.sectionTitle} ${styles[color]}`}>
-      <h1 className={styles.titleNumber}>{number}</h1>
-      <span className={styles.titleBar}></span>
-      <div className={styles.titleTextBox}>
-        <p className={styles.jaTitle}>{jaTitle}</p>
+      <div className={styles.leftBox}>
+        <h1 className={styles.number}>{number}</h1>
+      </div>
+      <div className={styles.rightBox}>
+        <p className={styles.jaTItle}>{jaTitle}</p>
         <h1 className={styles.enTitle}>{enTitle}</h1>
       </div>
     </div>

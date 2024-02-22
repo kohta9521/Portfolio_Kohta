@@ -1,6 +1,10 @@
 'use client';
+import React from 'react';
+
+// hooks import
 import useAOS from '@/hooks/useAOS';
 
+// sass import
 import styles from './styles/Hero.module.scss';
 
 const Hero = () => {
@@ -14,27 +18,7 @@ const Hero = () => {
             <span className={styles.arrowDown} />
           </div>
         </div>
-        <div className={styles.centerBox}>
-          <h1 className={styles.heroMainText} data-aos="fade-up">
-            THIS IS KOHTAS
-          </h1>
-          <h1 className={styles.heroMainText} data-aos="fade-up">
-            PORTFOLIO SITE AS
-          </h1>
-          <h1 className={styles.heroMainText} data-aos="fade-up">
-            ENGINEERING
-          </h1>
-          <span className={styles.box}></span>
-          <h1 className={styles.heroMainTextWhite} data-aos="fade-up">
-            MY ACTIVITIES
-          </h1>
-          <h1 className={styles.heroMainTextWhite} data-aos="fade-up">
-            AS AN ENGINEER{' '}
-          </h1>
-          <h1 className={styles.heroMainTextWhite} data-aos="fade-up">
-            AND DAILY STUDY
-          </h1>
-        </div>
+        <div className={styles.centerBox}></div>
         <div className={styles.rightBox}></div>
       </div>
     </div>
