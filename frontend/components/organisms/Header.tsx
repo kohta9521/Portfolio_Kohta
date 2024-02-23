@@ -1,4 +1,4 @@
-// compoentns
+// components
 import Logo from '../atoms/Logo';
 import HeaderList from '../molecules/HeaderList';
 

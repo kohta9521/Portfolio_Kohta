@@ -1,5 +1,10 @@
+'use client';
+
 // scss import
 import styles from './styles/SectionTitle.module.scss';
+
+// hooks import
+import useAOS from '@/hooks/useAOS';
 
 // props type
 export type SectionTitleProps = {
@@ -12,8 +17,9 @@ export type SectionTitleProps = {
 };
 
 const SectionTitle = ({ id, idName, number, jaTitle, enTitle, color = 'white' }: SectionTitleProps) => {
+  useAOS();
   return (
-    <div key={id} id={idName} className={`${styles.sectionTitle} ${styles[color]}`}>
+    <div key={id} id={idName} className={`${styles.sectionTitle} ${styles[color]}`} data-aos="fade-up">
       <div className={styles.leftBox}>
         <h1 className={styles.number}>{number}</h1>
       </div>

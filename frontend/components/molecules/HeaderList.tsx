@@ -18,7 +18,7 @@ const HeaderList = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className={styles.headerList} data-aos='fade-up'>
+    <div className={styles.headerList} data-aos="fade-up">
       <ListItem id={1} text={'Home'} link={'/'} size={'medium'} color={'white'} />
       <ListItem id={1} text={'About'} link={'/'} size={'medium'} color={'white'} />
       <ListItem id={1} text={'Services'} link={'/'} size={'medium'} color={'white'} />

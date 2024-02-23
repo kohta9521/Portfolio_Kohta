@@ -1,4 +1,3 @@
-// components import
 import NewsBox from '../molecules/NewsBox';
 import SectionTitle from '../molecules/SectionTitle';
 
