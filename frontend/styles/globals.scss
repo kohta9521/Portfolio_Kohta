@@ -24,6 +24,20 @@
   --xlarge-font-size: 20px;
   --xxlarge-font-size: 24px;
   --xxxlarge-font-size: 35px;
+
+  // mobile
+  --mobile-xxsmall: 7px;
+  --mobile-xsmall: 9px;
+  --mobile-small: 11px;
+  --mobile-default: 13px;
+  --mobile-large: 15px;
+  --mobile-xlarge: 17px;
+  --mobile-xxlarge: 21px;
+  --mobile-xxxlarge: 32px;
+
+  // padding
+  --section-defualt: 100px 0px;
+  --mobile-section-defualt: 70px 0px;
 }
 
 * {
