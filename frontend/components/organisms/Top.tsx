@@ -1,10 +1,5 @@
-import React from 'react';
-
-// sass import
-import styles from './styles/Top.module.scss';
-
-// components import
 import Header from './Header';
+import styles from './styles/Top.module.scss';
 
 const Top = () => {
   return (

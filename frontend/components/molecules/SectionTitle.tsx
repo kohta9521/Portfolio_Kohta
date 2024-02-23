@@ -1,10 +1,10 @@
 'use client';
 
-// scss import
-import styles from './styles/SectionTitle.module.scss';
-
 // hooks import
 import useAOS from '@/hooks/useAOS';
+
+// scss import
+import styles from './styles/SectionTitle.module.scss';
 
 // props type
 export type SectionTitleProps = {

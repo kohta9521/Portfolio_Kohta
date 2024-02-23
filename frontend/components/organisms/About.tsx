@@ -1,10 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import SectionTitle from '../molecules/SectionTitle';
-import styles from './styles/About.module.scss';
 
 import useAOS from '@/hooks/useAOS';
+
+import SectionTitle from '../molecules/SectionTitle';
+
+import styles from './styles/About.module.scss';
 
 const About = () => {
   useAOS();
