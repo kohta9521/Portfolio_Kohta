@@ -16,7 +16,7 @@ const Logo = ({ id, link, color = 'white', size = 'medium' }: LogoProps) => {
   useAOS();
   return (
     <Link key={id} className={`${styles.logoBox}`} href={link} data-aos="fade-up">
-      <h1 className={`${styles.text} ${styles[color]} ${styles[size]}`}>Kohta Engineer Portfolio</h1>
+      <h1 className={`${styles.text} ${styles[color]} ${styles[size]}`}>Kohta Portfolio</h1>
     </Link>
   );
 };
