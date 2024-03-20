@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  max-width: 200px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--main-black-color);
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: var(--main-pink-color);
+  }
+  .text {
+    color: var(--main-white-color);
+    font-size: 19px;
+    line-height: 90px;
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      color: var(--main-black-color);
+    }
+  }
+}
