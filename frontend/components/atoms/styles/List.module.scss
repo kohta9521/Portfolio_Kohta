@@ -1,0 +1,16 @@
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0px 25px;
+  .text {
+    font-size: 18px;
+    line-height: 90px;
+    font-weight: 550;
+    color: var(--main-black-color);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 768px) {
+}

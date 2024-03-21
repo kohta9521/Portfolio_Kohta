@@ -3,6 +3,7 @@
   max-width: 200px;
   width: 180px;
   height: 90px;
+  margin-left: 40px;
   text-align: center;
   text-decoration: none;
   background-color: var(--main-black-color);
@@ -12,7 +13,7 @@
   }
   .text {
     color: var(--main-white-color);
-    font-size: 19px;
+    font-size: 18px;
     line-height: 90px;
     &:hover {
       transition: all 0.3s ease-in-out;
