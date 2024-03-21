@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ContactBtn from '../atoms/ContactBtn';
 import Logo from '../atoms/Logo';
 import HeaderListBox from '../molecules/HeaderListBox';
 
@@ -10,7 +11,7 @@ const Header = () => {
     <div className={styles.header}>
       <Logo id={1} link="/" color="black" size="medium" />
       <HeaderListBox>
-        <p>sample</p>
+        <ContactBtn id="contact" link="/contact" />
       </HeaderListBox>
     </div>
   );

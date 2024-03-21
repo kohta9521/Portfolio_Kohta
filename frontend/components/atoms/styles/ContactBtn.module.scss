@@ -1,6 +1,7 @@
 .btn {
   display: block;
   max-width: 200px;
+  width: 180px;
   height: 90px;
   text-align: center;
   text-decoration: none;
@@ -18,4 +19,9 @@
       color: var(--main-black-color);
     }
   }
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 768px) {
 }
