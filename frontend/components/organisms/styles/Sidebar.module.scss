@@ -1,0 +1,32 @@
+.sidebar {
+  position: absolute;
+  z-index: 2;
+  width: 100px;
+  height: 100vh;
+  background-color: var(--main-black-color);
+  .menuBtnBox {
+  }
+  .arrowBox {
+  }
+  .contactBtnBox {
+    .contactBtnLink {
+      //   margin-top: 100px;
+      display: block;
+      display: flex;
+      width: 30px;
+      height: 200px;
+      transform: rotate(-90deg);
+      .contactBtnText {
+        color: var(--main-pink-color);
+      }
+      .contactBtnIcon {
+        color: var(--main-pink-color);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1280px) {
+}

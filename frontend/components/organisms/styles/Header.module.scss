@@ -1,10 +1,18 @@
 .header {
-  width: 100vw;
-  height: 90px;
-  padding: 0px 0px 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: calc(100% - 100px);
+  height: 250px;
+  margin-left: 100px;
+  padding: 0px 30px;
+  background-color: var(--main-pink-color);
+  .container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 1280px) {
