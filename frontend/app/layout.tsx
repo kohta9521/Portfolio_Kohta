@@ -1,7 +1,10 @@
 import { Inter } from 'next/font/google';
 
 import type { Metadata } from 'next';
+
 import '../styles/globals.scss';
+
+import { LanguageProvider } from '@/hooks/LanguageContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,8 +22,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <LanguageProvider>
+      <html lang="ja">
+        <body className={inter.className}>{children}</body>
+      </html>
+    </LanguageProvider>
   );
 }

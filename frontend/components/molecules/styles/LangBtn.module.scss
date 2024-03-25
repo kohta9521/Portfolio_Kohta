@@ -1,0 +1,33 @@
+.btnBox {
+  width: auto;
+  height: auto;
+  .btnCircle {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: var(--main-white-color);
+    .btnIcon {
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      color: var(--main-pink-color);
+    }
+  }
+  .jaCircle {
+    display: none;
+    .btn {
+    }
+  }
+  .enCircle {
+    display: none;
+    .btn {
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}

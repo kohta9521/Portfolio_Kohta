@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": {
+      "jp": "ウェブサイトへようこそ",
+      "en": "Welcome to my website"
+    },
+    "description": {
+      "jp": "これは、i18nextをReactと一緒に使う方法を示すために作成したシンプルなウェブサイトです。",
+      "en": "This is a simple website that I created to demonstrate how to use i18next with React."
+    }
+  }
+}

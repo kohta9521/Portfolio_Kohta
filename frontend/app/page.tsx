@@ -1,15 +1,19 @@
+'use client';
 import React from 'react';
 
 // components import
 
-import Header from '@/components/organisms/Header';
+import Top from '@/components/organisms/Top';
+
+import { useLanguage } from '@/hooks/LanguageContext';
 
 import styles from '../styles/page.module.scss';
 
 export default function Home() {
+  const { language } = useLanguage();
   return (
     <main className={styles.main}>
-      <Header />
+      <Top />
     </main>
   );
 }
