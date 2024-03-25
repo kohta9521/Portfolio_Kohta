@@ -1,0 +1,48 @@
+.btnBox {
+  width: 100px;
+  height: auto;
+
+  .btnCircle {
+    position: relative;
+
+    &:hover + .jaCircle,
+    &:hover + .enCircle {
+      display: block;
+    }
+
+    .btnIcon {
+      cursor: pointer;
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      background-color: var(--main-white-color);
+    }
+  }
+  .jaCircle,
+  .enCircle {
+    display: none;
+    position: absolute;
+    top: 120px; /* ボタンの下に配置 */
+
+    .btn {
+      font-size: 30px;
+      background-color: var(--main-white-color);
+      border: 1px solid var(--main-black-color);
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.btnBox {
+  .btnCircle {
+    .btnIcon {
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}

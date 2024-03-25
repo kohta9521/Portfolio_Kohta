@@ -7,14 +7,14 @@ type LanguageContextType = {
 };
 
 const LanguageContext = createContext<LanguageContextType>({
-  language: 'en',
+  language: 'jp',
   setLanguage: () => {},
 });
 
 export const useLanguage = () => useContext(LanguageContext);
 
 export const LanguageProvider: React.FunctionComponent = ({ children }) => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('jp');
 
   const value = {
     language,

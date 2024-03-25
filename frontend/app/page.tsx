@@ -3,9 +3,7 @@ import React from 'react';
 
 // components import
 
-import LanguageSwitcher from '@/components/molecules/LanguageSwitcher';
-import Header from '@/components/organisms/Header';
-import Sidebar from '@/components/organisms/Sidebar';
+import LangBtn from '@/components/molecules/LangBtn';
 
 import { useLanguage } from '@/hooks/LanguageContext';
 
@@ -16,10 +14,9 @@ export default function Home() {
   const { language } = useLanguage();
   return (
     <main className={styles.main}>
-      <Sidebar />
-      <Header />
-      <LanguageSwitcher />
+      <LangBtn />
       <h1 className={styles.text}>{translation.home.title[language]}</h1>
+      <p className={styles.text}>{translation.home.description[language]}</p>
     </main>
   );
 }
